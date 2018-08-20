@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/collage">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:background="@color/white"/>
+
+    <include layout="@layout/appbar_layout"
+        android:id="@+id/become_a_patener_toolbar"
+       />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/become_a_patener_toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/first_text"
+        android:text="@string/WHAT_IS_PURPOSE_OF_CT_1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:id="@+id/second_text"
+        android:layout_below="@+id/first_text"
+        android:gravity="center"
+        android:text="@string/WHAT_IS_PURPOSE_OF_CT_2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:id="@+id/third_text"
+        android:layout_below="@+id/second_text"
+        android:gravity="center"
+        android:text="@string/WHAT_IS_PURPOSE_OF_CT_3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@+id/second_text"
+                android:gravity="center"
+                android:text="@string/WHAT_IS_PURPOSE_OF_CT_4"/>
+
+            <com.andexert.library.RippleView
+                android:id="@+id/follow_btn_rpl_view"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                ripple:rv_type="rectangle">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:theme="@style/ThemeOverlay.MyDarkButton"
+                    android:layout_weight="1.0"
+                    android:layout_margin="5dp"
+                    android:elevation="@dimen/elivation_size"
+                    android:id="@+id/send_mail_to_us"
+                    android:paddingLeft="20dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:paddingRight="20dp"
+                    android:background="@drawable/ic_rectangle">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/send_MAIL_TO_US"
+                        android:textStyle="bold"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="#fff"
+                        android:id="@+id/start_reading"
+                        android:textSize="16dp"/>
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="20dp"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"
+                 android:textStyle="bold"
+                 android:textSize="20dp"
+                 android:gravity="center"
+                 android:text="@string/WHAT_IS_PURPOSE_OF_CT_5"/>
+
+             <com.andexert.library.RippleView
+                 android:layout_width="200dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="20dp"
+                 android:layout_marginBottom="20dp"
+                 android:layout_gravity="center"
+                 ripple:rv_type="rectangle">
+
+                 <RelativeLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="50dp"
+                     android:theme="@style/ThemeOverlay.MyDarkButton"
+                     android:layout_weight="1.0"
+                     android:layout_margin="5dp"
+                     android:elevation="@dimen/elivation_size"
+                     android:id="@+id/finiancial_support"
+                     android:paddingLeft="20dp"
+                     android:backgroundTint="@color/colorPrimary"
+                     android:paddingRight="20dp"
+                     android:background="@drawable/ic_rectangle">
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/FINIANCIAL_SUPPORT"
+                         android:textStyle="bold"
+                         android:layout_centerHorizontal="true"
+                         android:layout_centerVertical="true"
+                         android:textColor="#fff"
+                         android:textSize="16dp"/>
+
+                 </RelativeLayout>
+             </com.andexert.library.RippleView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

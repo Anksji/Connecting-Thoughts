@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/remove_cover"
+        android:orderInCategory="100"
+        android:title="@string/REMOVE_COVER_IMAGE"
+        />
+    <item android:id="@+id/change_cover"
+        android:orderInCategory="100"
+        android:title="@string/CHANGE_COVER_IMAGE"/>
+
+
+
+</menu>

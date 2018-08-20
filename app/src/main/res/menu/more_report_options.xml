@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/take_action"
+        android:orderInCategory="100"
+        android:title="@string/TAKE_ACTION"
+        app:showAsAction="collapseActionView|ifRoom"/>
+
+    <item
+        android:id="@+id/open_story"
+        android:orderInCategory="100"
+        android:title="@string/OPEN_STORY" />
+    <item
+        android:id="@+id/author_detail"
+        android:orderInCategory="100"
+        android:title="@string/OPEN_AUTHOR_DETAIL" />
+
+</menu>

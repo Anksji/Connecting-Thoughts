@@ -1,0 +1,233 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowActivityTransitions">true</item>-->
+        <item name="android:dropDownItemStyle">@style/mySearchViewDropDownItemStyle</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+    </style>
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+
+
+    <style name="myDropDownItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="mySearchViewDropDownItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="TEXT_TILCustom">
+        <item name="android:background">@drawable/text_view_til_bottom</item>
+    </style>
+    <style name="TILCustom">
+        <item name="android:background">@drawable/tilborder</item>
+    </style>
+
+    <style parent="@android:style/Widget.Spinner" name="write_spinner">
+        <item name="android:background">@drawable/tilborder</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textColorHint">#757575</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <style parent="@android:style/Widget.Spinner" name="language_spinner">
+        <item name="android:textColor">#333333</item>
+        <item name="android:background">@drawable/noborder</item>
+        <item name="android:textColorHint">#757575</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+
+    <style name="Connecting_thoughts">
+        <item name="android:background">@drawable/etborder</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textColorHint">#757575</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="buttonStyle" parent="@android:style/Widget.Button.Small">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:color">@color/colorPrimary</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:background">@drawable/selected_button</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!--Dialog Theme-->
+
+    <style name="dialog_light" parent="@android:style/Theme.Dialog">
+        <item name="@android:windowBackground">@color/whitegrey</item>
+        <item name="@android:textColor">@color/black</item>
+    </style>
+
+    <!-- Dark Buttons -->
+    <style name="ThemeOverlay.MyDarkButton" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+    </style>
+
+    <style name="navigation_theme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        >
+    </style>
+
+    <!--EditText-->
+    <style name="ThemeOverlay.MyLightEditText" parent="ThemeOverlay.AppCompat.Dark"/>
+
+    <style name="ThemeOverlay.MyTextDetail" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ThemeOverlay.FirebaseIcon" parent="AppTheme">
+        <item name="android:layout_marginTop">@dimen/icon_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/icon_bottom_margin</item>
+    </style>
+
+    <style name="ThemeOverlay.MyTitleText" parent="AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <!--Editor Toolbar style-->
+
+    <style name="My_custom_Theme" parent="@style/MyTheme" />
+
+    <style name="MyTheme" parent="CT.Base">
+        <!--<item name="rte_ToolbarButton">@style/RTE_ToolbarButton</item>
+        <item name="rte_ToolbarSpinner">@style/RTE_ToolbarSpinnerLight</item>
+        <item name="rte_ToolbarSpinnerItem">@style/RTE_ToolbarSpinnerItem</item>
+        <item name="rte_ToolbarSpinnerSelectedColor">@color/rte_spinner_selected_color_light</item>
+        <item name="rte_ToolbarVerticalDivider">@style/RTE_ToolbarVerticalDivider</item>-->
+        <item name="rte_icToolbarUndo">@drawable/ic_undo_selector</item>
+        <item name="rte_icToolbarRedo">@drawable/ic_redo_selector</item>
+        <item name="rte_icToolbarBold">@drawable/ic_bold_selector</item>
+        <item name="rte_icToolbarItalic">@drawable/ic_italic_selector</item>
+        <item name="rte_icToolbarUnderline">@drawable/ic_underline_selector</item>
+        <item name="rte_icToolbarAlignLeft">@drawable/ic_align_left_selector</item>
+        <item name="rte_icToolbarAlignCenter">@drawable/ic_align_center_selector</item>
+        <item name="rte_icToolbarAlignRight">@drawable/ic_align_right_selector</item>
+        <item name="rte_icToolbarLink">@drawable/ic_link_selector</item>
+
+        <!--
+        <item name="rte_icToolbarStrikethrough">@drawable/ic_strikethrough_selector</item>
+        <item name="rte_icToolbarSuperscript">@drawable/ic_superscript_selector</item>
+        <item name="rte_icToolbarSubscript">@drawable/ic_subscript_selector</item>
+
+        <item name="rte_icToolbarIncIndent">@drawable/ic_inc_indent_selector</item>
+        <item name="rte_icToolbarDecIntent">@drawable/ic_dec_indent_selector</item>
+        <item name="rte_icToolbarBullet">@drawable/ic_bullet_selector</item>
+        <item name="rte_icToolbarNumber">@drawable/ic_number_selector</item>
+        <item name="rte_icToolbarFont">@drawable/ic_font_selector</item>
+        <item name="rte_icToolbarFontSize">@drawable/ic_fontsize_selector</item>-->
+        <!--<item name="rte_icToolbarFontColor">@drawable/ic_fontcolor_selector</item>-->
+        <!--<item name="rte_icToolbarBGColor">@drawable/ic_bgcolor_selector</item>-->
+
+        <!--<item name="rte_icToolbarImage">@drawable/ic_image_selector</item>
+        <item name="rte_icToolbarCapture">@drawable/ic_capture_selector</item>
+
+        <item name="rte_icToolbarClear">@drawable/ic_clear_selector</item>-->
+    </style>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="android:minHeight">10dip</item>
+        <item name="android:maxHeight">10dip</item>
+        <item name="android:minWidth">200dip</item>
+        <item name="android:maxWidth">200dip</item>
+    </style>
+
+
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:dropDownItemStyle">@style/myDropDownItemStyle</item>
+        <item name="android:dropDownListViewStyle">@style/myDropDownListViewStyle</item>
+    </style>
+
+
+
+
+    <style name="myDropDownListViewStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:background">#FFF</item>
+    </style>
+
+    <style name="CT.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+    </style>
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+</resources>

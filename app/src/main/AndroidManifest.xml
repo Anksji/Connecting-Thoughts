@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rsons.application.connecting_thoughts">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:name=".ConnectingThoughtsClass"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+            <intent-filter>
+                <action android:name=".TARGET_SHARE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="hcz7n.app.goo.gl" android:scheme="http"/>
+                <data android:host="hcz7n.app.goo.gl" android:scheme="https"/>
+            </intent-filter>
+            <!--<intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>-->
+
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+
+
+            <!--<intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+-->
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+
+        </activity>
+
+        <!--<activity android:name=".SearchResultsActivity"  >
+        <intent-filter>
+            <action android:name="android.intent.action.SEARCH" />
+        </intent-filter>
+    </activity>-->
+
+        <activity android:name=".Notification.AllNotificationListing"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ChatActivityAndClasses.ImageDetailActivity"/>
+        <activity android:name=".EditProfile_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".WritingActivity.NonPublishedWriting"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".WritingActivity.WriteStoryActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+
+        <activity android:name=".ReadStoryActivity.ViewFirstPage_of_Story"
+            android:screenOrientation="portrait">
+
+
+            <intent-filter>
+                <action android:name="com.developers.rsons.connectingthoughts_TARGET_STORY_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ReadStoryActivity.DisplayStoryContent"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="com.rsons.application.connecting_thoughts_COMMENT_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            </activity>
+        <activity android:name=".UsersActivity.AuthorProfileActivity"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="com.developers.rsons.connectingthoughts_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <service android:name=".Notification.FirebaseNotificationService"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".Notification.FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="12739410sara"/>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ct_icon_blue" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+
+        <activity android:name=".UsersActivity.LoadAuthorWritings"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".AudioStoryActivity.PlayRecordedAudio"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AudioStoryActivity.RecordNewAudioStory"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <provider android:name=".MySuggestionProvider"
+            android:authorities="com.developers.rsons.connectingthoughts" />
+
+
+        <activity android:name=".Notification.NotificationSetting"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ChooseLanguage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ChatActivityAndClasses.AllFriendList"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity">
+
+            <intent-filter>
+                <action android:name="com.developers.rsons.connectingthoughts_TARGET_CHAT_Friend_List_NOTIFICATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ChatActivityAndClasses.ChatActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize|stateHidden"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity">
+
+            <intent-filter>
+                <action android:name="com.developers.rsons.connectingthoughts_TARGET_CHAT_NOTIFICATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".SingleSectionListingActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Search.Search_Result"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LibraryCollection.LibraryListing_of_all_story"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LibraryCollection.HistoryListing_of_Previous_Read_Story"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NewConnectionRequest.NewConnectionRequestActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".WritingActivity.EditPublishedStory"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Report.ReportForStoryScreen"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Report.ReportListingInsideHelpTab"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Report.ReporterListActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".EnterUserName"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".HelpINConnectingThoughts"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Become_A_Partner.Become_Partner_First_Activity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Payment.PaymentStatusActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Payment.PayUMoneyActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".AboutUs.About_Us_Info_Text"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AboutUs.AboutUs_Connecting_thoughts"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ReadStoryActivity.LoadMoreCommentList"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Report.ReportStoryAuthorDetail"
+            android:screenOrientation="portrait"/>
+
+        <provider
+            android:authorities="com.rson.brothers.connecting_thoughts.mysearch"
+            android:name=".Search.SearchProvider"
+            android:enabled="true"
+            android:exported="true"/>
+
+    </application>
+
+</manifest>

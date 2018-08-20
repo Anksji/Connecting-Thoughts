@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_600"
+            android:layout_weight="1.8"
+            android:gravity="center"
+            android:id="@+id/dialog_title"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="@string/Donation"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            style="@style/TILCustom">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/Connecting_thoughts"
+                android:inputType="number"
+                android:textColor="@color/text_color"
+                android:id="@+id/donation_amount"
+                android:hint="@string/ENTER_AMOUNT"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+       <!-- <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            style="@style/TILCustom">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/Connecting_thoughts"
+                android:inputType="number"
+                android:textColor="@color/text_color"
+                android:id="@+id/doneter_message"
+                android:hint="@string/WRITE_YOUR_MESSAGE"/>
+        </android.support.design.widget.TextInputLayout>-->
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/add_new_story_ripple"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            ripple:rv_type="rectangle">
+
+            <RelativeLayout
+                android:id="@+id/proceed_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/ic_rectangle"
+                android:backgroundTint="@color/colorPrimary"
+                android:elevation="@dimen/elivation_size"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:theme="@style/ThemeOverlay.MyDarkButton">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/Proceed"
+                        android:textColor="#fff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:id="@+id/add_new_story"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            ripple:rv_type="rectangle">
+
+            <RelativeLayout
+                android:id="@+id/cancel_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/ic_rectangle_deselect"
+                android:elevation="@dimen/elivation_size"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:theme="@style/ThemeOverlay.MyDarkButton">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Cancel"
+                        android:textColor="@color/grey_600"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </com.andexert.library.RippleView>
+
+    </LinearLayout>
+
+</LinearLayout>

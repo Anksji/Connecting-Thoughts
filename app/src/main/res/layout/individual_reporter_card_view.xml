@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="?android:selectableItemBackground"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/problem_content_layout"
+            android:layout_weight="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/reporter_layout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/grey_600"
+                    android:textSize="16dp"
+                    android:text="@string/REPORTED_BY"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textColor="@color/grey_600"
+                    android:text=" : "/>
+
+                <TextView
+                    android:id="@+id/reporter_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_toLeftOf="@+id/card_more_option"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Reporter Name"
+                    android:textColor="@color/grey_600"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/reporter_problem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@+id/reporter_layout"
+                android:layout_marginRight="5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:transitionName="story_info_transition"
+                android:text="4fejkwjf wwefwfweif fwef wwejfwfsdfjsf  fasfjaskfjksfjaskfjfdjaksfjslafjsadfjsajf fsafsa ff af dfksajfsakfjf f fasfsfjfjfsafsd ff saf sfd sf afjsakfsfsf fdsajfskfj sf sfsd fjsf ksfjskdfjsadfjsf sfsf sdfsf f f sfs fdf asf asf sd wf wefi wf wf wf f f wfkfjfjjsdfjsafkdjfsjfjfaf sfsjfasfsf sf af wf ewfjwfw fwf wfjwoefj wf wf fffoifjfjoi fw wf iwf iwf if f wifjwfjw
+fhw wi wfwff f wfi wfw fwf wf wfiwe fwf fqf f f"
+                android:textColor="@color/grey_600"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@+id/reporter_problem"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/grey_500"
+                        android:textSize="16dp"
+                        android:text="@string/REPORT_TYPE"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="@color/grey_500"
+                        android:text=" : "/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Improper Content"
+                        android:textColor="@color/grey_500"
+                        android:id="@+id/report_type"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/view_layout">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textStyle="bold"
+                       android:textColor="@color/grey_500"
+                       android:textSize="16dp"
+                       android:text="@string/hint_email"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="@color/grey_500"
+                        android:text=" : "/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CT@gmail.com"
+                        android:textColor="@color/grey_500"
+                        android:id="@+id/reporter_emailid"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/grey_500"
+                        android:textSize="16dp"
+                        android:text="@string/PHONE_NUMBER"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="@color/grey_500"
+                        android:text=" : "/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_500"
+                        android:text="123456789"
+                        android:id="@+id/reporter_phone_no"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

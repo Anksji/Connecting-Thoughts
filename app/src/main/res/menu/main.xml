@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:title="search"
+        android:id="@+id/mysearch"
+        android:icon="@drawable/ic_magnifying_glass"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom"
+        tools:ignore="AppCompatResource"
+        />
+
+    <item
+        android:id="@+id/notification_icon"
+        android:icon="@drawable/ic_menu_cart"
+        android:title="@string/notification"
+        app:showAsAction="always" />
+    <!--<item
+        android:id="@+id/notification_icon"
+        android:title="Notification"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:icon="@drawable/ic_notification"
+        />-->
+
+</menu>

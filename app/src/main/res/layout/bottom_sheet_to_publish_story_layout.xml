@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/grey_200"
+        android:paddingBottom="10dp"
+        android:elevation="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:text="@string/SOME_MORE_DETAIL"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/publish_text"
+            android:layout_marginRight="5dp"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/grey_600"
+            android:text="@string/PUBLISH"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <RelativeLayout
+            android:id="@+id/genre_spinner_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_btn_height"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/genre_spinner"
+                style="@style/write_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:prompt="@string/SELECT_GENRE"
+                android:visibility="gone"></Spinner>
+
+            <TextView
+                android:id="@+id/gener_text"
+                style="@style/TEXT_TILCustom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingBottom="3dp"
+                android:text="@string/SELECT_GENRE"
+                android:textColor="@color/text_hint_color"
+                android:textSize="18dp" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_down_arrow"
+                android:tint="@color/grey_500" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/language_spinner_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_btn_height"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/language_spinner"
+                style="@style/write_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:prompt="@string/SELECT_LANGUAGE"
+                android:visibility="gone"></Spinner>
+
+            <TextView
+                android:id="@+id/language_spinner_text"
+                style="@style/TEXT_TILCustom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingBottom="3dp"
+                android:text="@string/SELECT_LANGUAGE"
+                android:textColor="@color/text_hint_color"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_down_arrow"
+                android:tint="@color/grey_500" />
+
+
+        </RelativeLayout>
+
+
+        <!--<android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/keyword_releated_to_story"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        style="@style/TILCustom">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Connecting_thoughts"
+            android:id="@+id/keyword_edit_text"
+            android:inputType="text"
+            android:hint="@string/STORY_KEYWORDS"/>
+    </android.support.design.widget.TextInputLayout>-->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/about_story"
+            style="@style/TILCustom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <EditText
+                android:id="@+id/tell_about_story"
+                style="@style/Connecting_thoughts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/ABOUT_STORY"
+                android:inputType="text"
+                android:maxLines="3" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Switch
+            android:id="@+id/hide_identity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/HIDE_YOUR_IDENTITY"
+            android:textColor="@color/grey_800"
+            android:textSize="16dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

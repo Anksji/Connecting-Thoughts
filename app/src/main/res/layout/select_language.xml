@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/collage">
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.90"
+    android:background="@color/white"/>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="120dp"
+        android:contentDescription="@string/desc_firebase_lockup"
+        android:src="@drawable/ct_icon_blue" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CHOOSE_YOUR_DESIRED_LANGUAGE"
+        android:gravity="center"
+        android:layout_below="@+id/icon"
+        android:textColor="@color/grey_500"
+        android:id="@+id/title_text"
+       android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        />
+
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/title_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/language_title"
+        android:background="@color/grey_400"
+        />-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lang_layout"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/title_text">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5sp"
+            android:id="@+id/select_language"
+            android:layout_marginLeft="10sp">
+
+
+            <Spinner
+                android:id="@+id/language_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:spinnerMode="dropdown"
+                android:visibility="gone">
+            </Spinner>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SELECT_CHOOSE"
+                android:layout_centerVertical="true"
+                android:paddingBottom="3sp"
+                android:gravity="center"
+                style="@style/TEXT_TILCustom"
+                android:id="@+id/language_spinner_text"
+                android:textSize="@dimen/hint_text_size"
+                android:textColor="@color/text_hint_color"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/bottom_til_view"
+                android:visibility="gone"
+                android:layout_below="@+id/language_spinner"
+                android:background="@drawable/text_view_til_bottom"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@color/grey_500"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10sp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_down_arrow"/>
+
+        </RelativeLayout>
+
+
+
+   <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_btn_height"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        android:background="@drawable/rectangle_border"
+        android:id="@+id/select_language">
+
+
+        <Spinner
+            android:id="@+id/language_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:spinnerMode="dropdown"
+            android:background="@android:color/transparent"
+            android:visibility="gone"></Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/language_spinner_text"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/grey_600"
+            android:text="@string/CHOOSE_LANGUAGE"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/grey_500"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/down_arrow"/>
+
+
+    </RelativeLayout>-->
+    </LinearLayout>
+    <com.andexert.library.RippleView
+        android:id="@+id/follow_btn_rpl_view"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+      android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        ripple:rv_type="rectangle">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:theme="@style/ThemeOverlay.MyDarkButton"
+            android:layout_weight="1.0"
+            android:layout_margin="5dp"
+            android:elevation="@dimen/elivation_size"
+            android:id="@+id/save_language_btn"
+            android:paddingLeft="20dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:paddingRight="20dp"
+            android:background="@drawable/ic_rectangle">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SAVE"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#fff"
+                android:id="@+id/start_reading"
+                android:textSize="16dp"/>
+
+        </RelativeLayout>
+    </com.andexert.library.RippleView>
+
+</RelativeLayout>

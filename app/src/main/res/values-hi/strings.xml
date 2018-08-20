@@ -1,0 +1,520 @@
+<resources>
+    <string name="app_name">Connecting Thoughts</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="SIGN_UP_TEXT">New to Connecting Thoughts ? Sign Up</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="label_phone_auth">Phone Number Authentication</string>
+    <string name="desc_phone_auth">Use a phone number to authenticate with Firebase.</string>
+
+    <string name="label_anonymous_auth">Anonymous Authentication</string>
+    <string name="desc_anonymous_auth">Sign in anonymously and then later upgrade to a full Firebase Auth user.</string>
+
+    <string name="label_custom_auth">Custom Authentication</string>
+    <string name="desc_custom_auth">Use a custom token signed by your own server to authenticate with Firebase.</string>
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+    <string name="desc_firebase_ui">Use the FirebaseUI-Android library to authenticate with Firebase.</string>
+
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Logged in !</string>
+    <string name="signed_out">You are not logged in !</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="phone_title_text">Phone Number</string>
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+
+
+
+
+
+
+
+    <string name="PRIVACY_POLICY_TEXT">Connecting thoughts team is the creator of this Privacy Policy operate at connecting thoughts
+        (the ‘Application’) ensure our commitment to your privacy vis-à-vis the protection of your priceless information.
+        In order to endow you with our uninterrupted use of services, we may collect and, in some circumstances,
+        disclose information about you. To enhance better protection of your privacy we provide this notice explaining
+        our information practices and the choices you can make about the way your information is collected and used.
+        If you have any questions or concerns regarding this privacy policy, you should contact our Customer Support Desk at
+        rsonsdevelopers@gmail.com.  OVERVIEW We commit to respecting your online privacy data. We further recognize your need
+        for appropriate protection and management of any personally identifiable information (\"Personal Information\")
+        you share with us. Information that is considered personal about you by us includes, but is not limited to, your name,
+        address, email address or other contact information.  Our application offers multiple services which can be accessed by
+        registering with us by providing the following information.  Mobile number; User operated 4-digit passkey; Name; E-mail Address.
+        NOTIFICATION OF MODIFICATIONS AND CHANGES TO THE T&amp;C AND PRIVACY POLICY We reserve the right to change the Terms and
+        Privacy Policy from time to time as seen fit, without any intimation to you, and your continued use of the application
+        will signify your acceptance of any amendment to these terms.  You are therefore advised to re-read the Terms of Service
+        and this Privacy Policy on a regular basis. Should it be that you do not accept any of the modifications or amendments
+        to the Terms, you may terminate your use of this application immediately.  INFORMATION WE COLLECT Our application’s
+        online requisition form requires users to give us contact information (like your name, telephone number and email address).
+        As a connecting thoughts member you are required to provide a valid email address at registration and choose a username
+        or alias that represents your identity on our application.  In furtherance to this we also collect device specific
+        information such as your International Mobile Equipment Identifiers (IMEI) without your intervention.  Certain information,
+        such as your name, e-mail addresses, is collected in order to, among other things, verify your identity and for use as
+        account numbers in our record system. Email addresses, Geo-locations, Intellectual Property, listings viewed, any
+        information entered in the contact us form or any other form displayed on any section of the application are also collected.
+        OUR USE OF YOUR INFORMATION Your contact information is also used to contact you when necessary. We use your IP address to
+        help diagnose problems with our server, and to administer our Application. Your IP address is also used to help identify
+        you and to gather broad demographic information. Finally, we may use your IP address to help protect our partners and
+        ourselves from fraud. We will continue to enhance our security procedures as new technology becomes available.
+        We will transfer information about you if we are acquired by or merged with another company. In this event,
+        we will notify you by email or by putting a prominent notice on the application before information about you is transferred
+        and becomes subject to a different privacy policy.  We may release your personal information to a third-party in order
+        comply with a Court Order or other similar legal procedure, or when we believe in good faith that such disclosure is
+        necessary to comply with the law; prevent imminent physical harm or financial loss; or investigate or take action
+        regarding illegal activities, suspected fraud, or violations of Our Terms of Use. We may disclose personally identifiable
+        information to parties in compliance with our Copyright Policy as mentioned in the Terms of Use as we in our sole discretion
+        believe necessary or appropriate in connection with an investigation of fraud, intellectual property infringement, piracy,
+        or other unlawful activity. In such events, we may disclose name, address, country, phone number, email address and company
+        name.  CONFIDENTIALITY You further acknowledge that the Application may contain information which is designated confidential
+        by us and that you shall not disclose such information without our prior written consent.  Your information is regarded as
+        confidential and therefore will not be divulged to any third party, unless if legally required to do so to the appropriate
+        authorities.  We will not sell, share, or rent your personal information to any third party or use your email address for
+        unsolicited mail. Any emails sent by us will only be in connection with the provision of agreed services and products.
+        OUR DISCLOSURE OF YOUR INFORMATION Due to the existing regulatory environment, we cannot ensure that all of your private
+        communications and other personally identifiable information will never be disclosed in ways not otherwise described in
+        this Privacy Policy. By way of example (without limiting and foregoing), we may be forced to disclose information to
+        the government, law enforcement agencies or third parties. Under certain circumstances, third parties may unlawfully
+        intercept or access transmissions or private communications, or members may abuse or misuse your information that they
+        collect from our Application. Therefore, although we use industry standard practices to protect your privacy, we do not
+        promise, and you should not expect, that your personally identifiable information or private communications would always
+        remain private.  As a matter of policy, we do not sell or rent any personally identifiable information about you to any
+        third party. However, the following describes some of the ways that your personally identifiable information may be disclosed.
+        External Service Providers: There may be a number of services offered by external service providers that help you use our
+        Application. If you choose to use these optional services, and in the course of doing so, disclose information to the external
+        service providers, and/or grant them permission to collect information about you, then their use of your information is
+        governed by their private policy.  Other Corporate Entities: We share much of our data, including personally identifiable
+        information about you, with our parent and/or subsidiaries that are committed to serving your online needs and related
+        services, throughout the world. Such data will be shared for the sole purpose of enhancing your browsing experience.
+        To the extent that these entities have access to your information, they will treat it at least as protective as they treat
+        information they obtain from their other members. It is possible that We and/or its subsidiaries, or any combination of
+        such, could merge with or be acquired by another business entity. Should such a combination occur, you should expect that
+        we would share some or all of your information in order to continue to provide the service. You will receive notice of such
+        event (to the extent it occurs).  Law and Order: We cooperate with law enforcement inquiries, as well as other third parties
+        to enforce laws, such as: intellectual property rights, fraud and other rights. We can (and you authorize us to) disclose any
+        information about you to law enforcement and other government officials as we, in our sole discretion, believe necessary or
+        appropriate, in connection with an investigation of fraud, intellectual property infringements, or other activity that is
+        illegal or may expose us or you to legal liability.  ACCESSING, REVIEWING AND CHANGING YOUR PROFILE Following registration,
+        you can review and change the information you submitted during registration. You can change your registration information
+        such as: name, phone number, and profile. To remove your profile so that others cannot view it, contact our customer support
+        team at rsonsdevelopers@gmail.com.  We will retain in our files information you have requested to remove for certain
+        circumstances, such as to resolve disputes, troubleshoot problems and enforce our terms and conditions. Further, such prior
+        information is never completely removed from our databases due to technical and legal constraints, including stored \'back up\'
+        systems. Therefore, you should not expect that all of your personally identifiable information will be completely removed from
+        our databases in response to your requests. OTHER INFORMATION COLLECTORS Except as otherwise expressly included in this
+        Privacy Policy, this document only addresses the use and disclosure of information we collect from you. To the extent that
+        you disclose your information to other parties, different rules may apply to their use or disclosure of the information you
+        disclose to them. To the extent that we use third party advertisers, they adhere to their own privacy policies. Since we do
+        not control the privacy policies of the third parties, you are subject to ask questions before you disclose your personal
+        information to others.  SECURITY We treat data as an asset that must be protected against loss and unauthorized access.
+        We employ many different security techniques to protect such data from unauthorized access by members inside and outside
+        the company. We do not recommend transfer of sensitive information details via Application. We follow generally accepted
+        industry standards to protect the personal information submitted to us, both during transmission and once we receive it.
+        However, \"perfect security\" does not exist on the Internet. You therefore agree that any security breaches beyond the
+        control of our standard security procedures are at your sole risk and discretion.  DISCLAIMER We cannot ensure that all
+        of your private communications and other personal information will never be disclosed in ways not otherwise described in
+        this Privacy Policy. Therefore, although we are committed to protecting your privacy, we do not promise, and you should
+        not expect, that your personal information will always remain private. As a user of the Application, you understand and
+        agree that you assume all responsibility and risk for your use of the Application, the internet generally, and the documents
+        you post or access and for your conduct on and off the Application.></string>
+
+    <!--_______________________________Tanslate From Here______________________________-->
+
+
+    <string name="auth_failed">ऑथेंटिकेशन विफल</string>
+    <string name="start_phone_auth">लॉग इन करें</string>
+    <string name="verify_phone_auth">सत्यापित करें</string>
+    <string name="resend_phone_auth">ओटीपी पुनः भेजें</string>
+    <string name="hint_phone_number">फ़ोन नंबर</string>
+    <string name="hint_verification_code">Verification Code</string>
+
+
+    <string name="disconnect">डिस्कनेक्ट</string>
+    <string name="IMAGE_UPLOADED">चित्र को सफ़लतापूर्वक अपलोड किया गया</string>
+    <string name="DATA_SAVED">कहानी सफलतापूर्वक सहेजी गई।</string>
+    <string name="UPLOADING_DATA">कृपया प्रतीक्षा करें जब तक हम आपका डेटा सहेज रहे हैं।  </string>
+    <string name="UPLOAD_DATA_TITLE">अपलोड हो रहा है ...</string>
+    <string name="PLEASE_FILL_ALL">कृपया सभी रिक्त स्थाान भरे।</string>
+    <string name="SELECT_DATE">तारीख़ चुनें</string>
+    <string name="ENTER_EMAIL_ID">ईमेल</string>
+    <string name="SELECT_GENRE">शैली चुनें</string>
+    <string name="SELECT_GENDER">लिंग चुनें</string>
+    <string name="E_MAIL">ईमेल</string>
+    <string name="Enter_name">नाम</string>
+    <string name="ENTER_STATUS">अपने बारे में कुछ बतलायें </string>
+    <string name="ENTER_TITLE_OF_STORY">कहानी का शीर्षक</string>
+    <string name="TAP_TO_ADD_COVER">कहानी का कवर जोड़ने के लिए टैप करें</string>
+    <string name="START_WRITING">लेखन प्रारंभ करना ....</string>
+    <string name="PLEASE_GIVE_PERMISSIONS">छवि अपलोड करने की अनुमति की आवश्यकता है</string>
+    <string name="PUBLISH_STORY">कहानी प्रकाशित करें</string>
+    <string name="SAVE_AS_DRAFT">ड्राफ्ट में सहेजें</string>
+    <string name="DELETE_STORY">कहानी हटाएं</string>
+    <string name="NEW_STORY">नई कहानी</string>
+    <string name="SAVING_DATA">डेटा सहेजा जा रहा है </string>
+    <string name="PLEASE_WAIT_TEXT">कृपया प्रतीक्षा करें, आपकी कहानी सहेजी जा रही है। </string>
+    <string name="PLEASE_ADD_COVER_IMAGE">कहानी को ड्राफ्ट में सहेजने के लिए कवर चित्र जोड़ें </string>
+    <string name="IMAGE_UPLOADED_SUCCESSFULLY">चित्र सफलतापूर्वक अपलोड किया गया</string>
+    <string name="PLEASE_TRY_AGAIN">कुछ गलत हो गया। कृपया पुन: प्रयास करें।</string>
+    <string name="DELETE_SUCCESSFULL">कहानी सफलतापूर्वक हटाई गई</string>
+    <string name="EDIT_DRAFT_STORY">ड्राफ्ट की कहानी में बदलाव करें </string>
+    <string name="EDIT_PUBLISHED_STORY">प्रकाशित कहानियों में बदलाव करें</string>
+    <string name="CREATE_STORY">नई कहानी लिखें </string>
+    <string name="search_hint">खोजें ...</string>
+    <string name="SEARCH">खोज सेटिंग</string>
+    <string name="app_label">app lable</string>
+    <string name="SELECT_LANGUAGE">भाषा</string>
+    <string name="STORY_KEYWORDS">टैग जोड़ें </string>
+    <string name="SOME_MORE_DETAIL">कुछ अतिरिक्त जानकारी</string>
+    <string name="PUBLISH">प्रकाशित</string>
+    <string name="PLEASE_SELECT_GENER">कृपया शैली चुनें</string>
+    <string name="PLEASE_SELECT_LANGUAGE">कृपया भाषा चुनें</string>
+    <string name="PLEASE_WAIT_WILE_WE_PUBLISH_STORY">कृपया अपनी कहानी प्रकाशित होने तक प्रतीक्षा करें ......</string>
+    <string name="PUBLISHING_STORY">कहानी प्रकाशित हो रही है </string>
+    <string name="PLEASE_WAIT">कृपया प्रतीक्षा करें...</string>
+    <string name="PLEASE_SELECT_language_and_genre">कृपया भाषा और शैली का चयन करें</string>
+    <string name="READ">पढ़ें</string>
+    <string name="remove_from_connection">कनेक्शन से हटाएँ </string>
+    <string name="add_into_connection">कनेक्शन में जोड़ें </string>
+    <string name="ADD_COMMENT">टिप्पणी लिखें</string>
+    <string name="SUBMIT">रक्षित करें</string>
+    <string name="EDIT">बदलाव करें </string>
+    <string name="DELETE">हटाएँ </string>
+    <string name="decline_friend_request">कनेक्शन से हटाएँ</string>
+    <string name="send_friend_request">जुडिये</string>
+    <string name="WRITING">लेखन</string>
+    <string name="SEND_MESSAGE">संदेश भेजें</string>
+    <string name="WRITE_MESSAGES">संदेश लिखें</string>
+    <string name="TRENDING_STORY">बहुचर्चित कहानी</string>
+    <string name="SOMETHING_WENT_WRONG">कुछ गलत हो गया। कृपया पुन: प्रयास करें।</string>
+    <string name="STORY">कहानियाँ</string>
+    <string name="CHAT">बातचीत</string>
+    <string name="FOLLOWERS">फ़ॉलोअर्स</string>
+    <string name="HOLD_TO_SEND_AUDIO_MESSAGE">Hold to send audio message.</string>
+    <string name="DRAFT">ड्राफ्ट</string>
+    <string name="ABOUT_STORY">अपने पाठकों को कहानी के विषय में 30 - 50 शब्दों में बताएं। </string>
+    <string name="ADD_NEW_CHAPTER">अगला अध्याय जोड़ें </string>
+    <string name="CONNECT">जुडिये</string>
+    <string name="MESSAGES">संदेश</string>
+    <string name="Accept">स्वीकारें</string>
+    <string name="Reject">अस्वीकार</string>
+    <string name="NEW_CONNECTION_REQUEST">नई कनेक्शन अनुरोध आई है </string>
+    <string name="NEW_REQUEST">नया अनुरोध </string>
+    <string name="CANCEL_REQUEST">अनुरोध अस्विकार करें </string>
+    <string name="IN_your_Connection">जुड़े हैं</string>
+    <string name="PROFILE_UPDATED">प्रोफ़ाइल अपडेट</string>
+    <string name="PEOPLES">लोग</string>
+    <string name="VIEW">देखें</string>
+
+
+    <string name="Language">भाषा</string>
+    <string name="Share">साझा करें</string>
+    <string name="Rate_Us">कनेक्टिंग थॉट्स आपको कैसा लग रहा है</string>
+
+    <string name="hindi">हिन्दी</string>
+    <string name="english">English</string>
+    <string name="bengali">বাংলা</string>
+    <string name="gujarati">ગુજરાતી</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="marathi">मराठी</string>
+    <string name="oriya">ନୀୟ</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
+    <string name="sanskrit">संस्कृत</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="telugu">తెలుగు</string>
+
+
+    <string name="SEARCH_RESULT_FOR">खोज के नतीजे </string>
+    <string name="CREATE_AUDIO_STORY">नई ऑडियो कहानी जोड़ें</string>
+    <string name="SHARE">साझा करे</string>
+    <string name="COMMENT_DELETED">टिप्पणी सफलतापूर्वक हटाई गई</string>
+    <string name="ADD_TO_LIBRARY">अपने संग्रह में जोड़ें </string>
+    <string name="THIS_cREATIONaLREADYaDDED">यह रचना पहले से ही आपके संग्रह में जोड़ी जा चुकी है। </string>
+    <string name="SUCCESS_FULLY_ADDED_TO_LIBRARY">सफलतापूर्वक संग्रह में जोड़ी गई</string>
+    <string name="Library">मेरा संग्रह</string>
+    <string name="ALREADY_ADDED">संग्रह में जुड़ा है </string>
+    <string name="YOUR_COLLECTION">मेरा संग्रह</string>
+
+
+
+    <!--__________________________Ad Units Ids________________________________-->
+
+    <!--<string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ad_unit_id">ca-app-pub-3940256099942544/8135179316</string>-->
+
+
+    <string name="admob_CT_app_id">ca-app-pub-6416702975493032~8025337369</string>
+    <string name="banner_feed_screen_ad_unit_id_121">ca-app-pub-6416702975493032/5508016473</string>
+    <string name="feed_banner_ad_second">ca-app-pub-6416702975493032/7501068079</string>
+    <string name="feed_banner_ad_third">ca-app-pub-6416702975493032/8949881113</string>
+    <string name="story_read_banner_ad">ca-app-pub-6416702975493032/7664719609</string>
+    <string name="story_read_banner_ad_1">ca-app-pub-6416702975493032/6104225929</string>
+    <string name="story_chat_banner_ad">ca-app-pub-6416702975493032/5337939162</string>
+    <string name="story_first_pageInterstial_ad">ca-app-pub-6416702975493032/1454534477</string>
+    <string name="story_read_interstial_ad">ca-app-pub-6416702975493032/4243036268</string>
+
+
+
+
+
+
+    <string name="MOVING_ALONE">आप अभी इस समुदाय में किसी से नहीं जुड़े हैं। </string>
+    <string name="NO_RESULT_FOUND">कोई परिणाम नहीं मिला</string>
+    <string name="NO_INTERNET_CONNECTION">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="YOU_COLLECTION_IS_EMPTY">आपका संग्रह खाली है</string>
+    <string name="History">इतिहास</string>
+    <string name="Read_History">इतिहास देखें</string>
+    <string name="HISTORY_CLEARED_COMPLETLY">इतिहास ने सफलतापूर्वक साफ़ हो गया</string>
+    <string name="Setting">सेटिंग</string>
+    <string name="PARTERS">भागीदार बनें</string>
+    <string name="HELP">सहायता</string>
+    <string name="NEW_CONNECTION_R">नया कनेक्शन अनुरोध</string>
+    <string name="LIBRARY_CLEARED">आपका संग्रह सफलतापूर्वक साफ किया गया।</string>
+    <string name="NEW_CONNECTION_reQ">कनेक्शन अनुरोध</string>
+    <string name="notification">नोटिफिकेशन </string>
+    <string name="REPORT">स्टोरी रिपोर्ट</string>
+    <string name="YOU_MAY_LIKE">आप इन्हें भी पसंद कर सकते हैं। </string>
+
+    <!--**************************Categories in connecting thoughts******************************-->
+
+    <string name="NEW_STORY_on_ct">नई प्रकाशित हुई कहानियाँ</string>
+    <string name="TRENDING_STORY_on_ct">बहुचर्चित कहानियाँ</string>
+    <string name="ALL_TIME_BEST_STORY_ON_CT">सर्वश्रेष्ठ कहानियाँ</string>
+    <string name="STORY_ON_MOTIVATION">प्रेरणात्मक कहानियाँ</string>
+    <string name="STORY_ON_STRUGGLE">संघर्ष को दर्शाती कहानियाँ </string>
+    <string name="STORY_ON_DREAM">लोगों के स्वप्न</string>
+    <string name="FOLKS_OPINION">विभिन्न विषयों पर लोगों की राय</string>
+    <string name="POETRY">कविता संग्रह</string>
+    <string name="PATRIOTISM">देशभक्तिपूर्ण विचार</string>
+    <string name="STORY_ON_folks_DAY">लोगों के दिन की कहानी </string>
+    <string name="STORY_ON_COMEDY">हास्य कहानियाँ </string>
+    <string name="STORY_ON_Love">प्यार भरी कहानियाँ</string>
+    <string name="STORY_ON_CONFESSION">नया कन्फेशन</string>
+    <string name="STORY_ON_MEMORIES">यादों की गहराइयों से कुछ मोती </string>
+    <string name="STORY_ON_Remarkabele_Creation">उल्लेखनीय रचनाओं का संग्रह</string>
+
+
+
+    <string name="YOUR_STORY_DELETED_SUCCESSFULLY">यह कहानी सफलतापूर्वक हटाई गई</string>
+    <string name="NOW_YOUR_STORY_MOVE_TO_DRAFT_SECTION">आपकी कहानी को ड्राफ्ट में सहेजा गया है।</string>
+    <string name="DO_YOU_REALLY_WANT_TO_EDIT">क्या आप यकीनन बदलाव करना चाहते हैं?</string>
+    <string name="EDITING_PUBLISH_STORY_MESSAGE">प्रकाशित कहानी में बदलाव करने पर उसे कनेक्टिंग थॉट्स से अप्रकाशित कर दिया जावेगा,
+        और ड्राफ्ट में सहेजा जावेगा। आप अपनी कहानी को ड्राफ्ट खंड से पुनः प्रकाशित कर कनेक्टिंग थॉट्स के उपयोगकर्तों के लिए उपलब्ध करा सकते हैं।
+</string>
+    <string name="CANCEL">रद्द करें</string>
+    <string name="DO_YOU_REALLY_WANT_TO_DELETE">क्या आप अपने फैसले पर निश्चित हैं ?</string>
+    <string name="DELETING_STORY_MESSAGE">इस कहानी को हटाने के बाद आप इसे फिर से पुनर्प्राप्त नहीं कर सकते। इसे स्थायी रूप से हटा दिया जाएगा
+         क्या आप वाकई आगे बढ़ना चाहते हैं?</string>
+    <string name="WHAT_INAPPROPRIATE_CONTENT">आपको किस प्रकार की अनुपयुक्त सामग्री मिली है?</string>
+    <string name="INAPPROPRIATE_CONTENT_HINT">आप इस कहानी के लिए रिपोर्ट कर सकतें हैं यदि ये किसी भी प्रकार की नफरत या उत्पीड़न को बढ़ावा देती है,
+        या इस कहानी में अश्लील और अभद्र भाषा का प्रयोग किया गया है, या फिर यह कहानी आपकी अनुमति के बिना आपकी व्यक्तिगत जानकारी को साझा कर रही है। </string>
+
+    <string name="SAVE_THE_CHANGES">परिवर्तनों को सुरक्षित करें !</string>
+    <string name="DO_YOU_WANT_TO_SAVE_CHANGES_IN_STORY">क्या आप अपनी कहानी में परिवर्तनों को सहेजना चाहते हैं?</string>
+    <string name="NO">नहीं</string>
+    <string name="YES">हाँ</string>
+    <string name="PLEASE_WRITE_SOME_THING_BEFORE_PUBLISH">कहानी प्रकाशित करने से पहले कृपया कुछ लिखें।</string>
+    <string name="PLEASE_GIVE_TITLE_TO_YOUR_STORY">कृपया अपनी कहानी का शीर्षक लिखें। </string>
+    <string name="UPDATED_ON">संशोधित किया गया :</string>
+    <string name="PUBLISHED_ON">प्रकाशित किया गया :</string>
+    <string name="CHANGE_COVER_IMAGE">कवर छवि बदलें</string>
+    <string name="REMOVE_COVER_IMAGE">कवर छवि हटाएँ </string>
+    <string name="STORY_COVER_DELETED_SUCCESSFULLY">कहानी कवर सफलतापूर्वक हटा दिया गया</string>
+    <string name="WAIT_FOR_MOMENT">कुछ पल को रुकें </string>
+    <string name="NO_UPDATE_TO_SAVE">कहानी में कोई बदलाव नहीं किया गया है, जिसे सहेजने की आवश्यकता है। </string>
+    <string name="NOTHING_TO_SHOW">इस भाषा में कोई भी सामग्री उपलब्ध नहीं है।</string>
+    <string name="YOU_HAVE_NOT_PUBLISHED_STORY_YET">आपने अभी तक कोई भी कहानी प्रकाशित नहीं की है।</string>
+    <string name="UPLOADING_IMAGE">छवि अपलोड हो रही है </string>
+    <string name="PLEASE_WAIT_FOR_IMAGE">कृपया प्रतीक्षा करें जब तक हम छवि को संसाधित और सहेज रहे हैं। </string>
+    <string name="NO_STORY_IN_YOUR_DRAFT_SECTION">आपके ड्राफ्ट खंड में कोई उपलब्ध कहानी नहीं है। </string>
+    <string name="COPYRIGHT_ISSUE">कॉपीराइट समस्या</string>
+    <string name="GARBAGE_CONTANT">बेकार सामग्री जो कनेक्टिंग थॉट्स से संबंध नहीं रखती </string>
+    <string name="INAPPROPRIATE_CONTENT">अनुचित सामग्री</string>
+    <string name="REPORT_EMAIL">ईमेल *</string>
+    <string name="REPORT_NAME">नाम *</string>
+    <string name="YOU_CAN_ENTER_YOUR_PROBLEM_HERE">अपनी समस्या यहां लिखें ...</string>
+    <string name="REPORT_TO_STORY">कहानी को रिपोर्ट करें</string>
+    <string name="CHOOSE_LANGUAGE">भाषा चुनें</string>
+    <string name="PLEASE_CHOOSE_LANGUGE">कृपया आगे बढ़ने के लिए भाषा चुनें</string>
+    <string name="SAVE">रक्षित करें </string>
+    <string name="CHOOSE_YOUR_DESIRED_LANGUAGE">अपनी भाषा का चयन करें</string>
+    <string name="ENTER_VELID_NUMBER">कृपया वैध मोबाइल नंबर दर्ज करें</string>
+    <string name="PLEASE_ACCEPT_TERMS_AND_CONDITIOIN">कृपया नियम और शर्तें स्वीकार करें</string>
+    <string name="PHONE_NUMBER">फोन नंबर</string>
+    <string name="PLEASE_BE_PATIENT">कृपया धैर्य रखें, डेटा लोड हो रहा है।</string>
+    <string name="PHONE_NUMBER_REPORT">फोन नंबर *</string>
+    <string name="OK">Ok</string>
+    <string name="YOU_CAN_REPORT_FOR">आप रिपोर्ट कर सकते हैं</string>
+    <string name="PLEASE_PROVIDE_YOUR_NAME">कृपया नाम लिखें</string>
+    <string name="PROVIDE_YOUR_NUMBER">कृपया फोन नंबर प्रदान करें</string>
+    <string name="PLEASE_PROVIDE_EMAIL">कृपया ईमेल आईडी प्रदान करें</string>
+    <string name="PLEASE_WRITE_ABOUT_YOUR_PROBLEM">कृपया अपनी समस्या का उल्लेख करें</string>
+    <string name="WE_WILL_TAKE_ACTION">आपकी रिपोर्ट की जांच के बाद हम उचित कार्रवाई करेंगे</string>
+    <string name="Incomming_report">आने वाली रिपोर्ट</string>
+    <string name="REPORT_TYPE">रिपोर्ट का प्रकार</string>
+    <string name="REPORTER_LIST">रिपोर्ट सूची</string>
+    <string name="OPEN_STORY">कहानी पढ़ें</string>
+    <string name="TAKE_ACTION">कार्रवाई करें</string>
+    <string name="REPORTED_BY">रिपोर्ट की गई </string>
+    <string name="SUSPEND_STORY">अप्रकाशित कहानी</string>
+    <string name="IGRORE_REPORT">रिपोर्ट को अनदेखा करें</string>
+    <string name="TAKE_ACTION_AGAINST_REPORT">कार्रवाई करें</string>
+    <string name="DO_YOU_REALLY_WANT_TO_SUSPAND_STORY">क्या आप यकीनन में कहानी को अप्रकाशित करना चाहते हैं?</string>
+    <string name="DO_YOU_REALLY_WANT_TO_REJCT_REPORT">क्या आप वाकई इस रिपोर्ट को नकली घोषित करना चाहते हैं?</string>
+    <string name="STORY_UNPUBLISHED_SUCCESSFULLY">कहानी सफलतापूर्वक अप्रकाशित  हो गई </string>
+    <string name="SUBMITING_REPORT">रिपोर्ट सबमिट हो रही है </string>
+    <string name="PLEASE_WAIT_WHILE_WE_SUBMIT_REPORT">कृपया प्रतीक्षा करें जब तक हम आपकी रिपोर्ट सबमिट कर रहे हैं।</string>
+    <string name="PLEASE_WAIT_WHILE_WE_UNPUBLISH_STORY">कृपया प्रतीक्षा करें जब तक कहानी के निलंबन की प्रकिया जारी है </string>
+    <string name="PLEASE_WAIT_WHILE_WE_REJECTING_REPORT">कृपया रिपोर्ट को खारिज करने तक प्रतीक्षा करें।</string>
+    <string name="REPORT_DECLARED_AS_FAKE">रिपोर्ट को नकली घोषित किया गया</string>
+    <string name="NO_REPORT_YET">अभी तक कोई रिपोर्ट नहीं है</string>
+    <string name="SHARE_WITH">शेयर करें</string>
+    <string name="SELECT_PICTURE">चित्र चुनें</string>
+    <string name="VERIFY">सत्यापित करें</string>
+    <string name="SEND_otp">ओटीपी भेजें</string>
+    <string name="PLEASE_ENTER_YOUR_NAME">कृपया अपना नाम दर्ज करें ताकि लोग आपकी पहचान कर सकें।</string>
+    <string name="ENTER_NAME">नाम लिखें</string>
+    <string name="SELECT_CHOOSE">भाषा चुनिए</string>
+    <string name="PLEASE_ENTER_YOUR_NAME_BEFORE_SAVING_IT">सहेजने से पहले अपना नाम दर्ज करें।</string>
+    <string name="FRIENDS">मित्र </string>
+    <string name="NOTIFICATION">नोटिफिकेशन </string>
+    <string name="SENT_A_CONNECTION_REQUEST">आपसे जुड़ना चाहते हैं </string>
+    <string name="CLEAR_NOTIFICATION">नोटिफिकेशन मिटाएं</string>
+    <string name="MIRACLE_OFFLINE_MESSAGE">चमत्कार अपने आप नहीं होते, कई लोग दफ़न हो जाते हैं उस एक चमत्कार के लिए जिसे वो चमत्कार कह सकें।
+        जिनमे अपने चमत्कार के लिए दफ़न होने की क्षमता होती है वही एक दिन अपने चमत्कार की ओर अग्रसर होते हैं।   \n
+                                        -------- कनेक्टिंग थॉट्स टीम द्वारा</string>
+
+    <string name="HIDE_YOUR_IDENTITY">क्या आप इस कहानी में अपनी पहचान छुपाना चाहते हैं ?</string>
+    <string name="UNKNOWN">अज्ञात</string>
+    <string name="SORRY_AUTHOR_OF_THIS_STORY_IS_UNKNOWN">खेद है इस कहानी का लेखक अज्ञात है।</string>
+    <string name="ABOUT_US">हमारे बारे में</string>
+    <string name="MY_profile">मेरी प्रोफाइल</string>
+    <string name="BIRTH_DAY">जन्म दिवस</string>
+    <string name="gender">लिंग</string>
+    <string name="CHECK_OUT_CONNECTING_THOUGHTS">Check out connecting thoughts and meet people like you.</string>
+    <string name="CLEAR_HISTORY">इतिहास मिटाएं</string>
+    <string name="CLEAR_LIBRARY">संग्रह मिटाएं</string>
+    <string name="YOU_DID_NOT_READ_ANY_STORY_YET">आपने अभी तक कोई भी कहानी नहीं पढ़ी है।</string>
+
+    <string name="HOW_TO_WRITE_IN_CONNECTING_THOUGHTS">कैसे लिखें और प्रकाशित करें?</string>
+    <string name="HOW_TO_SEND_CONNECTION_REQUEST">कनेक्शन अनुरोध कैसे भेजें?</string>
+    <string name="HOW_ACCEPT_CONNECTION_REQUEST">कनेक्शन अनुरोध कैसे स्वीकार करें?</string>
+    <string name="SEND_YOUR_FIRST_MESSAGE">अपना पहला संदेश कैसे भेजें?</string>
+    <string name="START_CONVERSATION">कैसे बातचीत शुरू?</string>
+    <string name="ENTER_MOBILE_NO_TO_VERIFY">मोबाइल नंबर दर्ज करें सत्यापित करने के लिए</string>
+    <string name="VERIFY_PHONE_NO">फोन नंबर</string>
+    <string name="I_ACCEPT">मैं स्वीकारता हूँ </string>
+    <string name="terms_and_condition_action_btn">\&#160; नियम एवं शर्तों को *</string>
+    <string name="FOR_ANY_KIND_OF_SUGGESTION_OR_PROBLEM">क्या आप कनेक्टिंग थॉट्स के लिए कोई सुझाव देना चाहते हैं ?</string>
+    <string name="PLEASE_INSTALL_GMAIL_TO_SEND">Please install gmail into your device</string>
+    <string name="I_WANT_TO_SUGGEST_SOMETHING">I want to suggest</string>
+    <string name="MY_SUGGESTIONS">My suggestions</string>
+
+
+    <string name="WHAT_IS_PURPOSE_OF_CT_1">कनेक्टिंग थॉट्स एक ऑनलाइन मंच है जहां लोग अपनी रचना लिख सकते हैं और प्रकाशित कर सकते हैं।</string>
+    <string name="WHAT_IS_PURPOSE_OF_CT_2">कनेक्टिंग थॉट्स का मुख्य उद्देश्य लोगों को ऐसा मंच प्रदान करना जहाँ लोग अपनी सफलताओं,
+        अपनी उपलब्धियों, अपनी हानि, अपनी यादों और अपने जीवन  के अनुभवों की कहानियों को साझा कर सकें।</string>
+    <string name="WHAT_IS_PURPOSE_OF_CT_3">कनेक्टिंग थॉट्स में, लोग समान प्रकार की सोच के लोगों से मिलते हैं।</string>
+    <string name="WHAT_IS_PURPOSE_OF_CT_4">यदि आप इस समुदाय को बढ़ने के लिए किसी भी तरह से मदद करना चाहते हैं, तो हमारी टीम में आपका स्वागत है।</string>
+    <string name="send_MAIL_TO_US">हमें मेल भेजें</string>
+    <string name="WHAT_IS_PURPOSE_OF_CT_5">यदि आप आर्थिक मदद करना चाहते हैं, तो इस बटन पर क्लिक करें।</string>
+    <string name="FINIANCIAL_SUPPORT">आर्थिक सहायता</string>
+    <string name="I_WANT_TO_JOIN_CT">I want to join connecting thoughts</string>
+    <string name="I_WANT_GROW_CT">I want to help this community</string>
+    <string name="BECOME_A_PARTNER">Become a partner</string>
+    <string name="HOW_MUCH_YOU_WANT_TO_HELP">Enter Amount</string>
+    <string name="Proceed">Proceed</string>
+    <string name="ENTER_AMOUNT">Enter Donation Amount</string>
+    <string name="Donation">Donation</string>
+    <string name="PLEASE_ENTER_DONATION_AMOUNT">Please enter donation amount more then zero</string>
+    <string name="OR">या गूगल के साथ साइन इन करें</string>
+    <string name="UPDATE">अपडेट करें</string>
+    <string name="UPDATE_AVILABELE">अपडेट उपलब्ध है</string>
+    <string name="NEW_UPDATE_AVILABLE">नमस्कार दोस्तों, हम जानते हैं कि आप जल्दी में हैं लेकिन आपको इस ऐप को अपडेट करने की ज़रूरत है
+        ताकि आप इस ऐप का बेहतर अनुभव प्राप्त कर सकें।</string>
+    <string name="PRIVECY_POLICY">Privacy policy</string>
+    <string name="terms_and_condition_action">Terms &amp; condition</string>
+
+    <string name="READ_SETTING">Read setting</string>
+    <string name="SORRY_TEXT_SIZE_NOT_DECREASES">अक्षरों का आकार इससे अधिक नहीं घट सकता।</string>
+    <string name="SORRY_TEXT_SIZE_NOT_INCREASES">अक्षरों का आकार इससे अधिक नहीं बढ़ सकता।</string>
+    <string name="LOADING_USER_DATA">कृपया प्रतीक्षा करें जब तक डेटा लोड हो रहा है। </string>
+    <string name="WRITE_YOUR_MESSAGE">Write your message</string>
+
+    <string name="TERMS_AND_CONDITION">Terms and condition</string>
+    <string name="PRIVACY_POLICY">Privacy Policy</string>
+    <string name="ABOUT_US_CONNECTING_THOUGHTS">About Connecting Thoughts</string>
+    <string name="ABOUT_CONNECTING_THOUGHTS">We are heighly dedicated team</string>
+
+
+
+    <string name="LOAD_MORE_COMMENT">सभी टिप्पणियाँ लोड करें</string>
+    <string name="CONNECTING_THOUGHTS_PROMO">कनेक्टिंग थॉट्स प्रोमो</string>
+    <string name="GO_TO_HELP">मदद में जाएँ </string>
+    <string name="DO_YOU_WANT_SOME_HELP">क्या आपको कुछ मदद चाहिए ?</string>
+    <string name="GO_TO_HELP_MESSAGE">यदि आपको कनेक्टिंग थॉट्स इस्तेमाल करने में किसी भी प्रकार की परेशानी हो रही है,
+        तो आप कनेक्टिंग थॉट्स के मदद खंड में जा कर सहायता ले सकते हैं।</string>
+    <string name="PLEASE_GIVE_PERMISSIONS_FOR_IMAGE_MESSAGE">मल्टीमीडिया फ़ाइलों तक पहुंचने की अनुमति की आवश्यकता है।</string>
+    <string name="ONLY_IMAGE_FILE_IS_SUPPORTED">क्षमा कीजिए! केवल छायाचित्र प्रकार की फाइलें चुन सकते हैं। </string>
+    <string name="OPEN_AUTHOR_DETAIL">कहानी के लेखक विवरण</string>
+    <string name="AUTHOR_DETAIL">लेखक विवरण </string>
+    <string name="NO_NEW_CONNECTION_REQUEST">कोई भी नया कनेक्शन अनुरोध नहीं </string>
+    <string name="YOU_HAVE_NOT_STARTED_ANY_CONVERSATION_YET">अपने अभी तक किसी से भी बातचीत करना शुरू नहीं किया है।</string>
+    <string name="PLEASE_RATE_FIRST">कृपया पहले रेट करें </string>
+</resources>

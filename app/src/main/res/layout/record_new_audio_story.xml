@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/start_btn"
+            android:text="start"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/stop_btn"
+            android:text="stop"/>
+
+    </LinearLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/mic_animation"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <com.gigamole.library.PulseView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pulse_view"
+        app:pv_alpha="70"
+        app:pv_color="#fff"
+        app:pv_icon="@drawable/ic_single_dot"
+        app:pv_icon_height="20dp"
+        app:pv_icon_width="20dp"
+        app:pv_measure="height"
+        app:pv_spawn_period="600"
+        app:pv_interpolator="@android:anim/linear_interpolator"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/ic_voice_recording"/>
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+    <Chronometer
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stopwatch"
+        android:textColor="@color/white"
+        android:layout_below="@+id/mic_animation"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:gravity="center"/>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/stopwatch"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnStart"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ic_rec"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pauserecording"
+                android:background="@drawable/pause"
+
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_go_back_left_arrow"
+        android:tint="@color/white"
+        android:id="@+id/back_press"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playaudio"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:text="Recording List"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

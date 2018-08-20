@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1096094827500",
+    "firebase_url": "https://connecting-thoughts-testing.firebaseio.com",
+    "project_id": "connecting-thoughts-testing",
+    "storage_bucket": "connecting-thoughts-testing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096094827500:android:2a55718abc8aa4ac",
+        "android_client_info": {
+          "package_name": "com.rsons.application.connecting_thoughts.mydebug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096094827500-orbe8tkn45vqjahrkbrm31lk4ng8iijf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rsons.application.connecting_thoughts.mydebug",
+            "certificate_hash": "2d83fdfa6a93d631cdcdb899631926b087aa44fd"
+          }
+        },
+        {
+          "client_id": "1096094827500-3ueahriae6tjqfsequc65g0058tu0ak7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdr80Ps_JEbpU9iazuOMptSkX7AZxKKjY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096094827500-3ueahriae6tjqfsequc65g0058tu0ak7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

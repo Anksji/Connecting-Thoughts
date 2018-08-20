@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:id="@+id/message_progress_bar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_layout"
+        android:visibility="visible"
+        android:layout_below="@+id/message_progress_bar"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/comment_incomming_chat_bubble"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/other_user_message"
+            android:text="M"
+            android:textSize="14dp"
+            android:autoLink="web"
+            android:enabled="true"
+            android:textIsSelectable="true"
+            android:focusable="true"
+            android:longClickable="true"
+            android:layout_gravity="left"
+            android:paddingRight="10dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/grey_900"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_700"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp"
+            android:layout_marginRight="3dp"
+            android:id="@+id/friend_message_time"
+            android:layout_marginTop="5dp"
+            android:text="2/13/2018"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="@drawable/comment_outgoing_chat_bubble">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_message_txt"
+        android:autoLink="web"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:longClickable="true"
+        android:textSize="14dp"
+        android:text="Thi"
+        android:layout_gravity="right"
+        android:paddingRight="20dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/grey_900"
+        android:layout_marginTop="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_700"
+           android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+           android:layout_marginLeft="3dp"
+            android:textSize="12dp"
+            android:id="@+id/my_message_time"
+            android:layout_gravity="right"
+            android:text="2/13/2018"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_layout"
+        android:visibility="gone"
+        android:layout_below="@+id/message_progress_bar"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="10dp"
+           android:orientation="vertical"
+           android:background="@drawable/comment_incomming_chat_bubble">
+
+           <ImageView
+               android:layout_width="200sp"
+               android:layout_height="200sp"
+               android:scaleType="centerCrop"
+               android:layout_margin="5dp"
+               android:src="@drawable/card_defalt_back_cover"
+               android:id="@+id/friend_picture_message"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/grey_700"
+               android:textSize="12dp"
+               android:layout_marginLeft="5dp"
+               android:id="@+id/friend_pic_message_time"
+               android:text="2/13/2018" />
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:background="@drawable/comment_outgoing_chat_bubble">
+
+            <ImageView
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:scaleType="centerCrop"
+                android:layout_margin="5dp"
+                android:src="@drawable/card_defalt_back_cover"
+                android:id="@+id/my_picture_message"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_700"
+                android:textSize="12dp"
+                android:layout_marginRight="5dp"
+                android:layout_below="@+id/my_picture_message"
+                android:id="@+id/my__pic_message_time"
+                android:layout_gravity="right"
+                android:text="2/13/2018" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/audio_message_layout"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:id="@+id/friend_chat_audio"
+            android:padding="10dp"
+            android:layout_gravity="left"
+            android:background="@drawable/comment_incomming_chat_bubble">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/play"
+                android:id="@+id/play"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:layout_marginLeft="5dp"
+                android:progress="40"
+                android:progressDrawable="@drawable/custom_horizontal_progress_bar"
+                android:layout_gravity="center_vertical"
+                android:layout_height="5dp"
+                 />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:id="@+id/textView"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:id="@+id/textView2"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:id="@+id/my_chat_audio"
+            android:background="@drawable/comment_outgoing_chat_bubble"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_my"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/grey_800"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/"
+                    android:textColor="@color/grey_800"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textView2_my"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/grey_800"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+
+            <ProgressBar
+                android:id="@+id/progressBar2_my"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:layout_height="5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:progress="40"
+                android:progressDrawable="@drawable/custom_horizontal_progress_bar_second" />
+
+            <ImageView
+                android:id="@+id/play_my"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:scaleX="-1"
+                android:src="@drawable/play"
+                android:tint="@color/grey_800" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

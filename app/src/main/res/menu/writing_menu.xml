@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/publish_story"
+        android:title="@string/PUBLISH"
+        app:showAsAction="collapseActionView|always"/>
+    <item
+        android:id="@+id/save_as_draft"
+        android:title="@string/SAVE_AS_DRAFT" />
+    <item
+        android:id="@+id/delete_story"
+        android:title="@string/DELETE_STORY" />
+</menu>

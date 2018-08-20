@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/appbar_layout"
+        android:id="@+id/write_story_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/edit_text_toolbar_container"
+        android:layout_below="@+id/write_story_toolbar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cover_layout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/cover_image"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/grey_300"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_marginRight="5dp"
+            android:id="@+id/image_more_options"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_more" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10sp"
+            android:id="@+id/add_cover_image_icon"
+            android:background="@drawable/dotted_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_picture"
+                android:tint="@color/grey_500"
+                android:id="@+id/picker"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/picker"
+                android:layout_marginTop="8dp"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:text="@string/TAP_TO_ADD_COVER"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cover_layout"
+        android:hint="@string/ENTER_TITLE_OF_STORY"
+        android:id="@+id/title_of_story"
+        style="@style/TILCustom"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:paddingBottom="3dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+            <com.onegravity.rteditor.RTEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/title_of_story"
+                android:gravity="top"
+                android:padding="10dp"
+                android:id="@+id/content_of_story"
+                android:background="@drawable/noborder"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/START_WRITING"
+                android:imeOptions="actionDone|flagNoEnterAction"
+                android:inputType="textMultiLine|textAutoCorrect|textCapSentences" />
+
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_of_story"
+        android:layout_margin="5dp"
+
+        android:padding="5dp"
+
+        android:gravity="top"
+        android:hint="@string/START_WRITING"/>-->
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/edit_text_toolbar_container"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey_300"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/first_row_tools" />
+        <include layout="@layout/toolbar_paragraph" />
+    </LinearLayout>
+
+
+</RelativeLayout>

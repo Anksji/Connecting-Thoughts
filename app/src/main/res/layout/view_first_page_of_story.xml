@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/story_cover_image_back"
+        android:src="@drawable/card_defalt_back_cover"
+        android:scaleType="centerCrop"
+        android:alpha="0.5"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:alpha="0.2"
+        android:src="@drawable/black_image_shadow_complete_screen"
+        android:layout_marginBottom="50dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/top_margin"/>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:cardUseCompatPadding="true"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/top_margin"
+                android:id="@+id/story_cover_image_layout"
+                card_view:cardElevation="12dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/story_cover_image"
+            android:src="@drawable/card_defalt_back_cover"
+            android:transitionName="cover_image_transition" />
+
+    </LinearLayout>
+            </android.support.v7.widget.CardView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_go_back_left_arrow"
+        android:layout_marginTop="5dp"
+        android:id="@+id/go_back"
+        android:padding="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_list"
+        android:id="@+id/more_options"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/story_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/story_cover_image_layout"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:transitionName="story_title_transition1"
+        android:text="Story Title"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/story_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:transitionName="story_info_transition"
+        android:layout_below="@+id/story_title"
+        android:layout_marginTop="10dp"
+       android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="12365478912364598723 55555555ksjdfksj ffsf sfskdlfsjfsklfjsfklsajfklasjfsklfjksadf 55klfss4"
+        android:textColor="@color/grey_600"
+        android:textSize="15dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/view_count_and_rating_layout"
+        android:id="@+id/author_layout"
+
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:src="@drawable/ic_user_"
+           android:id="@+id/author_image"
+           android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_gravity="center"
+            android:id="@+id/author_name"
+            android:text="Author Name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/read_btn"
+        android:layout_below="@+id/author_layout"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <com.andexert.library.RippleView
+            android:id="@+id/follow_btn_rpl_view"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            ripple:rv_type="rectangle">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:theme="@style/ThemeOverlay.MyDarkButton"
+                android:layout_weight="1.0"
+                android:layout_margin="5dp"
+                android:elevation="@dimen/elivation_size"
+                android:id="@+id/start_reading_btn"
+                android:paddingLeft="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:paddingRight="20dp"
+                android:background="@drawable/ic_rectangle">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/READ"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="#fff"
+                    android:id="@+id/start_reading"
+                    android:textSize="16dp"/>
+
+            </RelativeLayout>
+        </com.andexert.library.RippleView>
+
+
+
+        <com.andexert.library.RippleView
+            android:id="@+id/add_new_story_ripple"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            ripple:rv_type="rectangle">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:theme="@style/ThemeOverlay.MyDarkButton"
+                android:layout_weight="1.0"
+                android:layout_margin="5dp"
+                android:elevation="@dimen/elivation_size"
+                android:id="@+id/add_another_chapter_to_story"
+                android:paddingLeft="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:paddingRight="20dp"
+                android:background="@drawable/ic_rectangle">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true">
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ic_add"
+                    android:layout_gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:tint="@color/white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ADD_NEW_CHAPTER"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="#fff"
+                    android:id="@+id/add_chapter"
+                    android:textSize="16dp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </com.andexert.library.RippleView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/view_count_and_rating_layout"
+        android:layout_below="@+id/story_info"
+
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/view_layout">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_eye"
+                android:tint="@color/grey_500" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_500"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:text="3 k"
+                android:id="@+id/view_count"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_rate_star_button"
+                android:tint="@color/grey_500" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_500"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:text="243 k"
+                android:id="@+id/star_count"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_holder"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,510 @@
+<resources>
+    <string name="app_name">Connecting Thoughts</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="SIGN_UP_TEXT">New to Connecting Thoughts ? Sign Up</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="PRIVACY_POLICY_TEXT">Connecting thoughts team is the creator of this Privacy Policy operate at connecting thoughts
+        (the ‘Application’) ensure our commitment to your privacy vis-à-vis the protection of your priceless information.
+        In order to endow you with our uninterrupted use of services, we may collect and, in some circumstances,
+        disclose information about you. To enhance better protection of your privacy we provide this notice explaining
+        our information practices and the choices you can make about the way your information is collected and used.
+        If you have any questions or concerns regarding this privacy policy, you should contact our Customer Support Desk at
+        rsonsdevelopers@gmail.com.  OVERVIEW We commit to respecting your online privacy data. We further recognize your need
+        for appropriate protection and management of any personally identifiable information (\"Personal Information\")
+        you share with us. Information that is considered personal about you by us includes, but is not limited to, your name,
+        address, email address or other contact information.  Our application offers multiple services which can be accessed by
+        registering with us by providing the following information.  Mobile number; User operated 4-digit passkey; Name; E-mail Address.
+        NOTIFICATION OF MODIFICATIONS AND CHANGES TO THE T&amp;C AND PRIVACY POLICY We reserve the right to change the Terms and
+        Privacy Policy from time to time as seen fit, without any intimation to you, and your continued use of the application
+        will signify your acceptance of any amendment to these terms.  You are therefore advised to re-read the Terms of Service
+        and this Privacy Policy on a regular basis. Should it be that you do not accept any of the modifications or amendments
+        to the Terms, you may terminate your use of this application immediately.  INFORMATION WE COLLECT Our application’s
+        online requisition form requires users to give us contact information (like your name, telephone number and email address).
+        As a connecting thoughts member you are required to provide a valid email address at registration and choose a username
+        or alias that represents your identity on our application.  In furtherance to this we also collect device specific
+        information such as your International Mobile Equipment Identifiers (IMEI) without your intervention.  Certain information,
+        such as your name, e-mail addresses, is collected in order to, among other things, verify your identity and for use as
+        account numbers in our record system. Email addresses, Geo-locations, Intellectual Property, listings viewed, any
+        information entered in the contact us form or any other form displayed on any section of the application are also collected.
+        OUR USE OF YOUR INFORMATION Your contact information is also used to contact you when necessary. We use your IP address to
+        help diagnose problems with our server, and to administer our Application. Your IP address is also used to help identify
+        you and to gather broad demographic information. Finally, we may use your IP address to help protect our partners and
+        ourselves from fraud. We will continue to enhance our security procedures as new technology becomes available.
+        We will transfer information about you if we are acquired by or merged with another company. In this event,
+        we will notify you by email or by putting a prominent notice on the application before information about you is transferred
+        and becomes subject to a different privacy policy.  We may release your personal information to a third-party in order
+        comply with a Court Order or other similar legal procedure, or when we believe in good faith that such disclosure is
+        necessary to comply with the law; prevent imminent physical harm or financial loss; or investigate or take action
+        regarding illegal activities, suspected fraud, or violations of Our Terms of Use. We may disclose personally identifiable
+        information to parties in compliance with our Copyright Policy as mentioned in the Terms of Use as we in our sole discretion
+        believe necessary or appropriate in connection with an investigation of fraud, intellectual property infringement, piracy,
+        or other unlawful activity. In such events, we may disclose name, address, country, phone number, email address and company
+        name.  CONFIDENTIALITY You further acknowledge that the Application may contain information which is designated confidential
+        by us and that you shall not disclose such information without our prior written consent.  Your information is regarded as
+        confidential and therefore will not be divulged to any third party, unless if legally required to do so to the appropriate
+        authorities.  We will not sell, share, or rent your personal information to any third party or use your email address for
+        unsolicited mail. Any emails sent by us will only be in connection with the provision of agreed services and products.
+        OUR DISCLOSURE OF YOUR INFORMATION Due to the existing regulatory environment, we cannot ensure that all of your private
+        communications and other personally identifiable information will never be disclosed in ways not otherwise described in
+        this Privacy Policy. By way of example (without limiting and foregoing), we may be forced to disclose information to
+        the government, law enforcement agencies or third parties. Under certain circumstances, third parties may unlawfully
+        intercept or access transmissions or private communications, or members may abuse or misuse your information that they
+        collect from our Application. Therefore, although we use industry standard practices to protect your privacy, we do not
+        promise, and you should not expect, that your personally identifiable information or private communications would always
+        remain private.  As a matter of policy, we do not sell or rent any personally identifiable information about you to any
+        third party. However, the following describes some of the ways that your personally identifiable information may be disclosed.
+        External Service Providers: There may be a number of services offered by external service providers that help you use our
+        Application. If you choose to use these optional services, and in the course of doing so, disclose information to the external
+        service providers, and/or grant them permission to collect information about you, then their use of your information is
+        governed by their private policy.  Other Corporate Entities: We share much of our data, including personally identifiable
+        information about you, with our parent and/or subsidiaries that are committed to serving your online needs and related
+        services, throughout the world. Such data will be shared for the sole purpose of enhancing your browsing experience.
+        To the extent that these entities have access to your information, they will treat it at least as protective as they treat
+        information they obtain from their other members. It is possible that We and/or its subsidiaries, or any combination of
+        such, could merge with or be acquired by another business entity. Should such a combination occur, you should expect that
+        we would share some or all of your information in order to continue to provide the service. You will receive notice of such
+        event (to the extent it occurs).  Law and Order: We cooperate with law enforcement inquiries, as well as other third parties
+        to enforce laws, such as: intellectual property rights, fraud and other rights. We can (and you authorize us to) disclose any
+        information about you to law enforcement and other government officials as we, in our sole discretion, believe necessary or
+        appropriate, in connection with an investigation of fraud, intellectual property infringements, or other activity that is
+        illegal or may expose us or you to legal liability.  ACCESSING, REVIEWING AND CHANGING YOUR PROFILE Following registration,
+        you can review and change the information you submitted during registration. You can change your registration information
+        such as: name, phone number, and profile. To remove your profile so that others cannot view it, contact our customer support
+        team at rsonsdevelopers@gmail.com.  We will retain in our files information you have requested to remove for certain
+        circumstances, such as to resolve disputes, troubleshoot problems and enforce our terms and conditions. Further, such prior
+        information is never completely removed from our databases due to technical and legal constraints, including stored \'back up\'
+        systems. Therefore, you should not expect that all of your personally identifiable information will be completely removed from
+        our databases in response to your requests. OTHER INFORMATION COLLECTORS Except as otherwise expressly included in this
+        Privacy Policy, this document only addresses the use and disclosure of information we collect from you. To the extent that
+        you disclose your information to other parties, different rules may apply to their use or disclosure of the information you
+        disclose to them. To the extent that we use third party advertisers, they adhere to their own privacy policies. Since we do
+        not control the privacy policies of the third parties, you are subject to ask questions before you disclose your personal
+        information to others.  SECURITY We treat data as an asset that must be protected against loss and unauthorized access.
+        We employ many different security techniques to protect such data from unauthorized access by members inside and outside
+        the company. We do not recommend transfer of sensitive information details via Application. We follow generally accepted
+        industry standards to protect the personal information submitted to us, both during transmission and once we receive it.
+        However, \"perfect security\" does not exist on the Internet. You therefore agree that any security breaches beyond the
+        control of our standard security procedures are at your sole risk and discretion.  DISCLAIMER We cannot ensure that all
+        of your private communications and other personal information will never be disclosed in ways not otherwise described in
+        this Privacy Policy. Therefore, although we are committed to protecting your privacy, we do not promise, and you should
+        not expect, that your personal information will always remain private. As a user of the Application, you understand and
+        agree that you assume all responsibility and risk for your use of the Application, the internet generally, and the documents
+        you post or access and for your conduct on and off the Application.></string>
+
+    <string name="label_phone_auth">Phone Number Authentication</string>
+    <string name="desc_phone_auth">Use a phone number to authenticate with Firebase.</string>
+
+    <string name="label_anonymous_auth">Anonymous Authentication</string>
+    <string name="desc_anonymous_auth">Sign in anonymously and then later upgrade to a full Firebase Auth user.</string>
+
+    <string name="label_custom_auth">Custom Authentication</string>
+    <string name="desc_custom_auth">Use a custom token signed by your own server to authenticate with Firebase.</string>
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+    <string name="desc_firebase_ui">Use the FirebaseUI-Android library to authenticate with Firebase.</string>
+
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Logged in !</string>
+    <string name="signed_out">You are not logged in !</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="phone_title_text">Phone Number</string>
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+
+
+
+    <!--_______________________________Tanslate From Here______________________________-->
+
+
+
+    <string name="auth_failed">Authentication failed</string>
+    <string name="start_phone_auth">Login</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend OTP</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+
+    <string name="IMAGE_UPLOADED">Successfully uploaded the image.</string>
+    <string name="DATA_SAVED">Story Saved Successfully.</string>
+    <string name="UPLOADING_DATA">Please wait while we saving your data.</string>
+    <string name="UPLOAD_DATA_TITLE">Uploading...</string>
+    <string name="PLEASE_FILL_ALL">Please fill all fields.</string>
+    <string name="SELECT_DATE">Select Date</string>
+    <string name="ENTER_EMAIL_ID">Email</string>
+    <string name="SELECT_GENRE">Choose Genre</string>
+    <string name="SELECT_GENDER">Select Gender</string>
+    <string name="E_MAIL">Email</string>
+    <string name="Enter_name">Name</string>
+    <string name="ENTER_STATUS">Describe Yourself</string>
+    <string name="ENTER_TITLE_OF_STORY">Title of story</string>
+    <string name="TAP_TO_ADD_COVER">Tap to add cover</string>
+    <string name="START_WRITING">Start Writing ....</string>
+    <string name="PLEASE_GIVE_PERMISSIONS">Need a permission to upload image.</string>
+    <string name="PUBLISH_STORY">Publish Story</string>
+    <string name="SAVE_AS_DRAFT">Save as draft</string>
+    <string name="DELETE_STORY">Delete story</string>
+    <string name="NEW_STORY">New Story</string>
+    <string name="SAVING_DATA">Saving Data</string>
+    <string name="PLEASE_WAIT_TEXT">Please wait while we saving your story.</string>
+    <string name="PLEASE_ADD_COVER_IMAGE">Please add cover image to save story in draft.</string>
+    <string name="IMAGE_UPLOADED_SUCCESSFULLY">Image Uploaded Successfully.</string>
+    <string name="PLEASE_TRY_AGAIN">Something went wrong please try again.</string>
+    <string name="DELETE_SUCCESSFULL">Story deleted successfully</string>
+    <string name="EDIT_DRAFT_STORY">Edit Draft Story</string>
+    <string name="EDIT_PUBLISHED_STORY">Edit Published Story</string>
+    <string name="CREATE_STORY">Add New Story</string>
+    <string name="search_hint">Search...</string>
+    <string name="SEARCH">Search setting</string>
+    <string name="app_label">app lable</string>
+    <string name="SELECT_LANGUAGE">Language</string>
+    <string name="STORY_KEYWORDS">Add Tag</string>
+    <string name="SOME_MORE_DETAIL">Some Extra Detail</string>
+    <string name="PUBLISH">PUBLISH</string>
+    <string name="PLEASE_SELECT_GENER">Please Select Genre</string>
+    <string name="PLEASE_SELECT_LANGUAGE">Please Select Language</string>
+    <string name="PLEASE_WAIT_WILE_WE_PUBLISH_STORY">Please wait while we publishing your story......</string>
+    <string name="PUBLISHING_STORY">Publishing Story</string>
+    <string name="PLEASE_WAIT">Please wait...</string>
+    <string name="PLEASE_SELECT_language_and_genre">Please select language and genre.</string>
+    <string name="READ">Read</string>
+    <string name="remove_from_connection">Remove From Connection</string>
+    <string name="add_into_connection">Add To Your Connection</string>
+    <string name="ADD_COMMENT">Add Comment</string>
+    <string name="SUBMIT">Submit</string>
+    <string name="EDIT">Edit</string>
+    <string name="DELETE">Delete</string>
+    <string name="decline_friend_request">Remove From Connection</string>
+    <string name="send_friend_request">Connect</string>
+    <string name="WRITING">Writing</string>
+    <string name="SEND_MESSAGE">Send Message</string>
+    <string name="WRITE_MESSAGES">Write message</string>
+    <string name="TRENDING_STORY">Trending Story</string>
+    <string name="SOMETHING_WENT_WRONG">Please try again something went wrong.</string>
+    <string name="STORY">STORY</string>
+    <string name="CHAT">CHAT</string>
+    <string name="FOLLOWERS">FOLLOWERS</string>
+    <string name="HOLD_TO_SEND_AUDIO_MESSAGE">Hold to send audio message.</string>
+    <string name="DRAFT">Draft</string>
+    <string name="ABOUT_STORY">Tell your readers about story in 30 - 50 words.</string>
+    <string name="ADD_NEW_CHAPTER">Add Another Chapter</string>
+    <string name="CONNECT">Connect</string>
+    <string name="MESSAGES">Message</string>
+    <string name="Accept">Accept</string>
+    <string name="Reject">Reject</string>
+    <string name="NEW_CONNECTION_REQUEST">New Connection Request From</string>
+    <string name="NEW_REQUEST">New Request</string>
+    <string name="CANCEL_REQUEST">Cancel Request</string>
+    <string name="IN_your_Connection">Connected</string>
+    <string name="PROFILE_UPDATED">Profile Updated</string>
+    <string name="PEOPLES">Peoples</string>
+    <string name="VIEW">View</string>
+
+
+
+
+    <string name="Language">Language</string>
+    <string name="Share">Share</string>
+    <string name="Rate_Us">Rate Us</string>
+
+    <string name="hindi">हिन्दी</string>
+    <string name="english">English</string>
+    <string name="bengali">বাংলা</string>
+    <string name="gujarati">ગુજરાતી</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="marathi">मराठी</string>
+    <string name="oriya">ନୀୟ</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
+    <string name="sanskrit">संस्कृत</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="telugu">తెలుగు</string>
+
+
+    <string name="SEARCH_RESULT_FOR">Search result for</string>
+    <string name="CREATE_AUDIO_STORY">Add new audio Story</string>
+    <string name="SHARE">Share</string>
+    <string name="COMMENT_DELETED">Comment Deleted Successfully</string>
+    <string name="ADD_TO_LIBRARY">Add To Library</string>
+    <string name="THIS_cREATIONaLREADYaDDED">This creation has already added into library.</string>
+    <string name="SUCCESS_FULLY_ADDED_TO_LIBRARY">Successfully added to library.</string>
+    <string name="Library">Library</string>
+    <string name="ALREADY_ADDED">Added to Library</string>
+    <string name="YOUR_COLLECTION">Library Collection</string>
+
+
+
+    <!--__________________________Ad Units Ids________________________________-->
+
+        <!--<string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+        <string name="ad_unit_id">ca-app-pub-3940256099942544/8135179316</string>-->
+
+    <string name="admob_CT_app_id">ca-app-pub-6416702975493032~8025337369</string>
+    <string name="banner_feed_screen_ad_unit_id_121">ca-app-pub-6416702975493032/5508016473</string>
+    <string name="feed_banner_ad_second">ca-app-pub-6416702975493032/7501068079</string>
+    <string name="feed_banner_ad_third">ca-app-pub-6416702975493032/8949881113</string>
+    <string name="story_read_banner_ad">ca-app-pub-6416702975493032/7664719609</string>
+    <string name="story_read_banner_ad_1">ca-app-pub-6416702975493032/6104225929</string>
+    <string name="story_chat_banner_ad">ca-app-pub-6416702975493032/5337939162</string>
+    <string name="story_first_pageInterstial_ad">ca-app-pub-6416702975493032/1454534477</string>
+    <string name="story_read_interstial_ad">ca-app-pub-6416702975493032/4243036268</string>
+
+
+
+    <string name="MOVING_ALONE">Currently your are alone in the forest.</string>
+    <string name="NO_RESULT_FOUND">No result found</string>
+    <string name="NO_INTERNET_CONNECTION">No internet connection</string>
+    <string name="YOU_COLLECTION_IS_EMPTY">Your collection is empty.</string>
+    <string name="History">History</string>
+    <string name="Read_History">Read History</string>
+    <string name="HISTORY_CLEARED_COMPLETLY">History Cleared Successfully.</string>
+    <string name="Setting">Setting</string>
+    <string name="PARTERS">Become a Partner</string>
+    <string name="HELP">Help</string>
+    <string name="NEW_CONNECTION_R">New Connection Request</string>
+    <string name="LIBRARY_CLEARED">Library Cleared Successfully</string>
+    <string name="NEW_CONNECTION_reQ">Connection Request</string>
+    <string name="notification">Notification</string>
+    <string name="REPORT">Report</string>
+    <string name="YOU_MAY_LIKE">You may like</string>
+
+    <!--**************************Categories in connecting thoughts******************************-->
+
+    <string name="NEW_STORY_on_ct">Recent Stories</string>
+    <string name="TRENDING_STORY_on_ct">Trending Stories</string>
+    <string name="ALL_TIME_BEST_STORY_ON_CT">All Time Best Stories</string>
+    <string name="STORY_ON_MOTIVATION">Stories on Motivation</string>
+    <string name="STORY_ON_STRUGGLE">Stories on Struggle</string>
+    <string name="STORY_ON_DREAM">Dreams of Peoples</string>
+    <string name="FOLKS_OPINION">People\'s Opinion</string>
+    <string name="POETRY">New in Poetry</string>
+    <string name="PATRIOTISM">Patriotic Thoughts</string>
+    <string name="STORY_ON_folks_DAY">Stories About Folks Day</string>
+    <string name="STORY_ON_COMEDY">Stories in Comedy</string>
+    <string name="STORY_ON_Love">Stories in Love</string>
+    <string name="STORY_ON_CONFESSION">New Confession</string>
+    <string name="STORY_ON_MEMORIES">New in Memories</string>
+    <string name="STORY_ON_Remarkabele_Creation">Stories in Remarkable Creation</string>
+
+
+
+    <string name="YOUR_STORY_DELETED_SUCCESSFULLY">This story deleted successfully.</string>
+    <string name="NOW_YOUR_STORY_MOVE_TO_DRAFT_SECTION">Now your story move to draft section.</string>
+    <string name="DO_YOU_REALLY_WANT_TO_EDIT">Do you really want to edit ?</string>
+    <string name="EDITING_PUBLISH_STORY_MESSAGE">While editing your published story it will be unpublished
+        from Connecting Thoughts and moved to your draft section. You can publish it again to make available for Connecting Thoughts users.</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="DO_YOU_REALLY_WANT_TO_DELETE">Are you sure ?</string>
+    <string name="DELETING_STORY_MESSAGE">After deletion of this story you can not recover it again. It will be deleted permanently.
+        Are you sure want to proceed ?</string>
+    <string name="WHAT_INAPPROPRIATE_CONTENT">What kind of inappropriate content you have found ?</string>
+    <string name="INAPPROPRIATE_CONTENT_HINT">You can report to this story if it promotes hate or harassment. You can also
+    report to this story if it contain pornographic  content or sharing your personal information without your permission.</string>
+    <string name="SAVE_THE_CHANGES">Save the changes !</string>
+    <string name="DO_YOU_WANT_TO_SAVE_CHANGES_IN_STORY">Do you want to save the changes in your story ?</string>
+    <string name="NO">No</string>
+    <string name="YES">Yes</string>
+    <string name="PLEASE_WRITE_SOME_THING_BEFORE_PUBLISH">Please write something before publish story.</string>
+    <string name="PLEASE_GIVE_TITLE_TO_YOUR_STORY">Please give title to your story.</string>
+    <string name="UPDATED_ON">Updated on :</string>
+    <string name="PUBLISHED_ON">Published on :</string>
+    <string name="CHANGE_COVER_IMAGE">Change Cover Image</string>
+    <string name="REMOVE_COVER_IMAGE">Remove Cover Image</string>
+    <string name="STORY_COVER_DELETED_SUCCESSFULLY">Story cover removed successfully.</string>
+    <string name="WAIT_FOR_MOMENT">Wait For Moment</string>
+    <string name="NO_UPDATE_TO_SAVE">No changes in story content to save.</string>
+    <string name="NOTHING_TO_SHOW">No content available in this language.</string>
+    <string name="YOU_HAVE_NOT_PUBLISHED_STORY_YET">You haven\'t published any story yet.</string>
+    <string name="UPLOADING_IMAGE">Uploading Image</string>
+    <string name="PLEASE_WAIT_FOR_IMAGE">Please wait while we process and saving image.</string>
+    <string name="NO_STORY_IN_YOUR_DRAFT_SECTION">No available story in your draft section.</string>
+    <string name="COPYRIGHT_ISSUE">Copyright issue</string>
+    <string name="GARBAGE_CONTANT">Garbage content and unrelated to connecting thoughts</string>
+    <string name="INAPPROPRIATE_CONTENT">Inappropriate content</string>
+    <string name="REPORT_EMAIL">Email *</string>
+    <string name="REPORT_NAME">Name *</string>
+    <string name="YOU_CAN_ENTER_YOUR_PROBLEM_HERE">Type your problem here....</string>
+    <string name="REPORT_TO_STORY">Report to story</string>
+    <string name="CHOOSE_LANGUAGE">Choose Language</string>
+    <string name="PLEASE_CHOOSE_LANGUGE">Please choose language to proceed.</string>
+    <string name="SAVE">Save</string>
+    <string name="CHOOSE_YOUR_DESIRED_LANGUAGE">Select your language</string>
+    <string name="ENTER_VELID_NUMBER">Please Enter Valid Number</string>
+    <string name="PLEASE_ACCEPT_TERMS_AND_CONDITIOIN">Please accept Terms and condition.</string>
+    <string name="PHONE_NUMBER">Phone No.</string>
+    <string name="PLEASE_BE_PATIENT">please be patient, data is loading.</string>
+    <string name="PHONE_NUMBER_REPORT">Phone No.*</string>
+    <string name="OK">Ok</string>
+    <string name="YOU_CAN_REPORT_FOR">You can report for</string>
+    <string name="PLEASE_PROVIDE_YOUR_NAME">Please provide name</string>
+    <string name="PROVIDE_YOUR_NUMBER">Please provide phone number</string>
+    <string name="PLEASE_PROVIDE_EMAIL">Please provide email id</string>
+    <string name="PLEASE_WRITE_ABOUT_YOUR_PROBLEM">Please mention your problem</string>
+    <string name="WE_WILL_TAKE_ACTION">We will take appropriate action after examine your report.</string>
+    <string name="Incomming_report">Incomming Report</string>
+    <string name="REPORT_TYPE">Type of report</string>
+    <string name="REPORTER_LIST">Report List</string>
+    <string name="OPEN_STORY">Read Story</string>
+    <string name="TAKE_ACTION">Take Action</string>
+    <string name="REPORTED_BY">Reported By</string>
+    <string name="SUSPEND_STORY">Suspend Story</string>
+    <string name="IGRORE_REPORT">Ignore Report</string>
+    <string name="TAKE_ACTION_AGAINST_REPORT">Take Action</string>
+    <string name="DO_YOU_REALLY_WANT_TO_SUSPAND_STORY">Do you really want to suspend story ?</string>
+    <string name="DO_YOU_REALLY_WANT_TO_REJCT_REPORT">Do you really want to declare this report as fake ?</string>
+    <string name="STORY_UNPUBLISHED_SUCCESSFULLY">Story unpublished successfully.</string>
+    <string name="SUBMITING_REPORT">Submitting Report</string>
+    <string name="PLEASE_WAIT_WHILE_WE_SUBMIT_REPORT">Please wait while we submitting your report.</string>
+    <string name="PLEASE_WAIT_WHILE_WE_UNPUBLISH_STORY">Please wait while we suspending story.</string>
+    <string name="PLEASE_WAIT_WHILE_WE_REJECTING_REPORT">Please wait while we rejecting report.</string>
+    <string name="REPORT_DECLARED_AS_FAKE">Report declared as fake.</string>
+    <string name="NO_REPORT_YET">No report yet.</string>
+    <string name="SHARE_WITH">Share with</string>
+    <string name="SELECT_PICTURE">Select Picture</string>
+    <string name="VERIFY">Verify</string>
+    <string name="SEND_otp">Send OTP</string>
+    <string name="PLEASE_ENTER_YOUR_NAME">Please enter your name so that people can identify you.</string>
+    <string name="ENTER_NAME">Enter Name</string>
+    <string name="SELECT_CHOOSE">Select Language</string>
+    <string name="PLEASE_ENTER_YOUR_NAME_BEFORE_SAVING_IT">Enter your name before saving it.</string>
+    <string name="FRIENDS">Friends</string>
+    <string name="NOTIFICATION">Notification</string>
+    <string name="SENT_A_CONNECTION_REQUEST">Wants to connect with you.</string>
+    <string name="CLEAR_NOTIFICATION">Clear Notification</string>
+    <string name="MIRACLE_OFFLINE_MESSAGE">Miracle just not happen by itself.
+        Many people get buried for their one Miracle so that they can do something which can be said as miracle.
+        Those who have the courage to be buried for their miracle.  one day they takes step towards miracles.   \n
+                                        -------- By Connecting Thoughts Team</string>
+    <string name="CHECK_OUT_CONNECTING_THOUGHTS">Check out connecting thoughts and meet people like you.</string>
+    <string name="HIDE_YOUR_IDENTITY">Do you wanna hide your identity in this story ?</string>
+    <string name="UNKNOWN">Unknown</string>
+    <string name="SORRY_AUTHOR_OF_THIS_STORY_IS_UNKNOWN">Sorry Author of this story is unknown.</string>
+    <string name="ABOUT_US">About Us</string>
+    <string name="MY_profile">My Profile</string>
+    <string name="BIRTH_DAY">Birth Day</string>
+    <string name="gender">Gender</string>
+    <string name="CLEAR_HISTORY">Clear History</string>
+    <string name="CLEAR_LIBRARY">Clear Library</string>
+    <string name="YOU_DID_NOT_READ_ANY_STORY_YET">You have not read any story yet.</string>
+    <string name="HOW_TO_WRITE_IN_CONNECTING_THOUGHTS">How to write and publish?</string>
+    <string name="HOW_TO_SEND_CONNECTION_REQUEST">How to send connection request?</string>
+    <string name="HOW_ACCEPT_CONNECTION_REQUEST">How to accept connection request?</string>
+    <string name="SEND_YOUR_FIRST_MESSAGE">How send your first message?</string>
+    <string name="START_CONVERSATION">How start conversation?</string>
+    <string name="ENTER_MOBILE_NO_TO_VERIFY">Enter mobile number to verify it.</string>
+    <string name="VERIFY_PHONE_NO">Phone Number</string>
+    <string name="I_ACCEPT">I accept </string>
+    <string name="terms_and_condition_action_btn">&#160; Terms &amp; Condition*</string>
+    <string name="FOR_ANY_KIND_OF_SUGGESTION_OR_PROBLEM">Want to suggest something for connecting thoughts?</string>
+    <string name="PLEASE_INSTALL_GMAIL_TO_SEND">Please install gmail into your device</string>
+    <string name="I_WANT_TO_SUGGEST_SOMETHING">I want to suggest</string>
+    <string name="MY_SUGGESTIONS">My suggestions</string>
+
+
+    <string name="WHAT_IS_PURPOSE_OF_CT_1">Connecting Thought is an online platform where people can write And publish their creation.</string>
+    <string name="WHAT_IS_PURPOSE_OF_CT_2">The main objective of Connecting Thought is to provide people with a platform where people can share stories of their struggles,
+        their successes, their accomplishments, their losses, their memories and their life experiences.</string>
+    <string name="WHAT_IS_PURPOSE_OF_CT_3">In Connecting Thought, people meet people of the same type of thinking.</string>
+    <string name="WHAT_IS_PURPOSE_OF_CT_4">If you want to help in any way to grow this community, then welcome to our team.</string>
+    <string name="send_MAIL_TO_US">Send mail to us</string>
+    <string name="WHAT_IS_PURPOSE_OF_CT_5">If you want to give us financial support, click on this button.</string>
+    <string name="FINIANCIAL_SUPPORT">Financial support</string>
+    <string name="I_WANT_TO_JOIN_CT">I want to join connecting thoughts</string>
+    <string name="I_WANT_GROW_CT">I want to help this community</string>
+    <string name="BECOME_A_PARTNER">Become a partner</string>
+    <string name="HOW_MUCH_YOU_WANT_TO_HELP">Enter Amount</string>
+    <string name="Proceed">Proceed</string>
+    <string name="ENTER_AMOUNT">Enter Donation Amount</string>
+    <string name="Donation">Donation</string>
+    <string name="PLEASE_ENTER_DONATION_AMOUNT">Please enter donation amount more then zero</string>
+    <string name="terms_and_condition_action">Terms &amp; condition</string>
+    <string name="PRIVECY_POLICY">Privacy policy</string>
+    <string name="OR">Or sign in with Google</string>
+    <string name="UPDATE">Update</string>
+    <string name="UPDATE_AVILABELE">Update Available</string>
+    <string name="NEW_UPDATE_AVILABLE">Hi friends, we know that you are in a hurry but you need to update this
+        app so that you can get a better experience of this app.</string>
+    <string name="READ_SETTING">Read setting</string>
+    <string name="SORRY_TEXT_SIZE_NOT_DECREASES">Text size can not decreases beyond this size.</string>
+    <string name="SORRY_TEXT_SIZE_NOT_INCREASES">Text size can not increase beyond this size.</string>
+    <string name="LOADING_USER_DATA">Please wait while we load user data</string>
+    <string name="WRITE_YOUR_MESSAGE">Write your message</string>
+
+    <string name="TERMS_AND_CONDITION">Terms and condition</string>
+    <string name="PRIVACY_POLICY">Privacy Policy</string>
+    <string name="ABOUT_US_CONNECTING_THOUGHTS">About Connecting Thoughts</string>
+    <string name="ABOUT_CONNECTING_THOUGHTS">We are heighly dedicated team</string>
+
+    <string name="LOAD_MORE_COMMENT">LOAD ALL COMMENTS</string>
+    <string name="CONNECTING_THOUGHTS_PROMO">Connecting Thoughts Promo</string>
+    <string name="GO_TO_HELP">Go to help</string>
+    <string name="DO_YOU_WANT_SOME_HELP">Do you want some help ?</string>
+    <string name="GO_TO_HELP_MESSAGE">If you are facing any kind of problem in Connecting Thoughts,
+        you can go to help seciton of Connecting Thoughts.</string>
+    <string name="PLEASE_GIVE_PERMISSIONS_FOR_IMAGE_MESSAGE">Need a permission to access multimedia files.</string>
+    <string name="ONLY_IMAGE_FILE_IS_SUPPORTED">Sorry, only image file supported</string>
+    <string name="OPEN_AUTHOR_DETAIL">Story Author Detail</string>
+    <string name="AUTHOR_DETAIL">Author Detail</string>
+    <string name="NO_NEW_CONNECTION_REQUEST">No new connection request</string>
+    <string name="YOU_HAVE_NOT_STARTED_ANY_CONVERSATION_YET">You have not started any conversation yet.</string>
+    <string name="PLEASE_RATE_FIRST">Please rate first</string>
+    <string name="GOOGLE_AUTH_FAILED">Google authentication is failed, please try again with another account.</string>
+
+
+</resources>

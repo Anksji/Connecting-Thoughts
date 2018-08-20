@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/comment_incomming_chat_bubble">
+
+            <ImageView
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:scaleType="centerCrop"
+                android:layout_margin="5dp"
+                android:src="@drawable/card_defalt_back_cover"
+                android:id="@+id/friend_picture_message"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_700"
+                android:textSize="12dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/friend_pic_message_time"
+                android:text="2/13/2018" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:background="@drawable/comment_outgoing_chat_bubble">
+
+            <ImageView
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:scaleType="centerCrop"
+                android:layout_margin="5dp"
+                android:src="@drawable/card_defalt_back_cover"
+                android:id="@+id/my_picture_message"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_700"
+                android:textSize="12dp"
+                android:layout_marginRight="5dp"
+                android:layout_below="@+id/my_picture_message"
+                android:id="@+id/my__pic_message_time"
+                android:layout_gravity="right"
+                android:text="2/13/2018" />
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

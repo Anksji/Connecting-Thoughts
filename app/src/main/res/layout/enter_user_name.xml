@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/collage">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.90"
+        android:background="@color/white"/>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="120dp"
+        android:contentDescription="@string/desc_firebase_lockup"
+        android:src="@drawable/ct_icon_blue" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/PLEASE_ENTER_YOUR_NAME"
+        android:gravity="center"
+        android:textColor="@color/grey_500"
+        android:layout_below="@+id/icon"
+        android:id="@+id/title_text"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lang_layout"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/title_text"
+        android:layout_centerHorizontal="true">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="10sp"
+            android:id="@+id/select_language"
+            android:layout_marginLeft="10sp">
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ENTER_NAME"
+                android:layout_centerVertical="true"
+                android:paddingBottom="3sp"
+                android:gravity="center"
+                android:inputType="textCapWords"
+                style="@style/TEXT_TILCustom"
+                android:id="@+id/user_name"
+                android:textSize="17sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/bottom_til_view"
+                android:visibility="gone"
+                android:layout_below="@+id/language_spinner"
+                android:background="@drawable/text_view_til_bottom"/>
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <com.andexert.library.RippleView
+        android:id="@+id/follow_btn_rpl_view"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        ripple:rv_type="rectangle">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:theme="@style/ThemeOverlay.MyDarkButton"
+            android:layout_weight="1.0"
+            android:layout_margin="5dp"
+            android:elevation="@dimen/elivation_size"
+            android:id="@+id/save_user_name_btn"
+            android:paddingLeft="20dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:paddingRight="20dp"
+            android:background="@drawable/ic_rectangle">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SAVE"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#fff"
+                android:id="@+id/start_reading"
+                android:textSize="16dp"/>
+
+        </RelativeLayout>
+    </com.andexert.library.RippleView>
+
+</RelativeLayout>
