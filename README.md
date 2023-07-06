@@ -11,7 +11,12 @@ Connecting Thoughts is an app to share your thoughts with this world. Users can 
 - Firebase Firestore as backend database.
 - Firebase functions to trigger the push notification.
 
-  
+
+
+
+
+##
+##
 
 MIT License
 
